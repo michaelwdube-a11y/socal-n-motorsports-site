@@ -49,6 +49,8 @@ def main():
     assert "socalnmotorsports.com" in html
     assert "mike@socalnmotorsports.com" not in html, "the email address is visible in the page source"
     assert "ct4-v-blackwing-race.webp" in html
+    assert "jordan-wiseley-paddock.webp" in html
+    assert "jordan-wiseley-racing.webp" not in html
     assert "Arrive-and-drive" in html
     assert "Zenith" in html
     assert "GRIDLIFE" in html

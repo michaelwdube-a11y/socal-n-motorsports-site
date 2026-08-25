@@ -861,7 +861,7 @@ footer p:last-child {
   min-width: 100%;
   min-height: 100%;
   object-fit: cover;
-  object-position: 79% center;
+  object-position: center;
 }
 
 .coach-image-wrap::after {
@@ -1163,7 +1163,7 @@ footer p:last-child {
   }
 
   .coach-image-wrap img {
-    object-position: 76% center;
+    object-position: center;
   }
 
   .coach-image-wrap::after {
