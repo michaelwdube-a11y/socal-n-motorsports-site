@@ -1,5 +1,6 @@
 from html.parser import HTMLParser
 from pathlib import Path
+from urllib.parse import unquote
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -13,6 +14,7 @@ class SiteParser(HTMLParser):
         self.local_assets = []
         self.mailto_links = []
         self.forms = []
+        self.images = []
 
     def handle_starttag(self, tag, attrs):
         values = dict(attrs)
@@ -20,51 +22,78 @@ class SiteParser(HTMLParser):
             self.ids.add(values["id"])
         if tag == "form":
             self.forms.append(values)
+        if tag == "img":
+            self.images.append(values)
         for attribute in ("href", "src"):
             value = values.get(attribute, "")
             if value.startswith("mailto:"):
                 self.mailto_links.append(value)
             elif value and not value.startswith(("#", "http://", "https://", "data:")):
-                self.local_assets.append(value.split("?", 1)[0])
+                self.local_assets.append(unquote(value.split("#", 1)[0].split("?", 1)[0]))
+
+
+def check_page(path):
+    html = path.read_text(encoding="utf-8")
+    parser = SiteParser()
+    parser.feed(html)
+    assert not parser.mailto_links, f"email exposed as mailto link in {path}"
+    assert '<link rel="canonical" href="https://socalnmotorsports.com/' in html
+    assert "<title>" in html and 'name="description"' in html
+
+    missing = []
+    for asset in parser.local_assets:
+        resolved = (path.parent / asset).resolve()
+        if not resolved.exists():
+            missing.append(asset)
+    assert not missing, f"missing local assets in {path}: {missing}"
+
+    for image in parser.images:
+        assert image.get("alt", "").strip(), f"image missing alt text in {path}"
+        assert image.get("width") and image.get("height"), f"image dimensions missing in {path}"
+    return html, parser
 
 
 def main():
-    index = SITE / "index.html"
-    assert index.is_file(), "site/index.html is missing"
+    expected_pages = [
+        SITE / "index.html",
+        SITE / "arrive-and-drive" / "index.html",
+        SITE / "driver-coaching" / "index.html",
+        SITE / "practice-days-hill-climbs" / "index.html",
+        SITE / "racing-intelligence" / "index.html",
+        SITE / "partnerships" / "index.html",
+        SITE / "privacy" / "index.html",
+    ]
+    for page in expected_pages:
+        assert page.is_file(), f"missing page: {page.relative_to(SITE)}"
+        check_page(page)
 
-    parser = SiteParser()
-    parser.feed(index.read_text(encoding="utf-8"))
-
+    html, parser = check_page(SITE / "index.html")
     required_sections = {"top", "racing", "coach", "intelligence", "partners", "contact"}
     assert required_sections <= parser.ids, f"missing sections: {required_sections - parser.ids}"
-    assert not parser.mailto_links, "the contact email must not be exposed as a mailto link"
     assert any(form.get("id") == "contact-form" for form in parser.forms), "contact form is missing"
-
-    missing = [asset for asset in parser.local_assets if not (SITE / asset).is_file()]
-    assert not missing, f"missing local assets: {missing}"
-
-    html = index.read_text(encoding="utf-8")
-    assert "Jordan Wiseley" in html
-    assert "Driver Coach" in html
-    assert "socalnmotorsports.com" in html
-    assert "mike@socalnmotorsports.com" not in html, "the email address is visible in the page source"
+    assert 'type="application/ld+json"' in html, "organization structured data is missing"
+    assert "Jordan Wiseley" in html and "Driver Coach" in html
+    assert "mike@socalnmotorsports.com" not in html, "email address is visible in page source"
     assert "ct4-v-blackwing-race.webp" in html
     assert "jordan-wiseley-paddock.webp" in html
     assert "jordan-wiseley-racing.webp" not in html
-    assert "Arrive-and-drive" in html
-    assert "Zenith" in html
-    assert "GRIDLIFE" in html
-    assert "Practice days" in html
-    assert "hill climbs" in html
-    assert "insurance" in html
+    for phrase in ("Arrive-and-drive", "Zenith", "GRIDLIFE", "Practice days", "hill climbs", "insurance"):
+        assert phrase in html, f"required homepage phrase is missing: {phrase}"
     assert "price" not in html.lower()
 
-    script = SITE / "contact.js"
-    assert script.is_file(), "contact form script is missing"
-    script_text = script.read_text(encoding="utf-8")
-    assert '["mike", "socalnmotorsports.com"].join("@")' in script_text
-    assert "mailto:" in script_text
-    print("Site checks passed.")
+    contact_script = (SITE / "contact.js").read_text(encoding="utf-8")
+    assert '["mike", "socalnmotorsports.com"].join("@")' in contact_script
+    assert "formsubmit.co/ajax" in contact_script
+    assert "mailto:" not in contact_script
+    assert (SITE / "analytics.js").is_file()
+
+    robots = (SITE / "robots.txt").read_text(encoding="utf-8")
+    sitemap = (SITE / "sitemap.xml").read_text(encoding="utf-8")
+    assert "Sitemap: https://socalnmotorsports.com/sitemap.xml" in robots
+    for path in ("arrive-and-drive", "driver-coaching", "practice-days-hill-climbs", "racing-intelligence", "partnerships", "privacy"):
+        assert f"https://socalnmotorsports.com/{path}/" in sitemap
+    assert (SITE / "CNAME").read_text(encoding="utf-8").strip() == "socalnmotorsports.com"
+    print(f"Site checks passed for {len(expected_pages)} pages.")
 
 
 if __name__ == "__main__":
