@@ -151,7 +151,8 @@ img {
   position: relative;
   z-index: 2;
   width: min(100% - 64px, 1260px);
-  margin: 60px auto 0;
+  margin: 0 auto;
+  padding: 130px 0 150px;
 }
 
 .eyebrow {
@@ -212,6 +213,8 @@ img {
   display: flex;
   gap: 13px;
   margin-top: 37px;
+  padding-bottom: 4px;
+  overflow: visible;
 }
 
 .button {
@@ -708,6 +711,10 @@ img {
 }
 
 .contact-inner {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(420px, .72fr);
+  gap: clamp(48px, 7vw, 110px);
+  align-items: start;
   padding-top: 110px;
   padding-bottom: 110px;
 }
@@ -717,7 +724,7 @@ img {
   font-size: clamp(56px, 7.5vw, 104px);
 }
 
-.contact-inner > p:not(.eyebrow) {
+.contact-intro > p:not(.eyebrow) {
   max-width: 700px;
   margin: 27px 0 34px;
   color: #30342f;
@@ -725,15 +732,77 @@ img {
   line-height: 1.65;
 }
 
-.contact-email {
-  display: block;
-  width: fit-content;
-  margin: -8px 0 30px;
-  padding-bottom: 5px;
-  border-bottom: 2px solid var(--ink);
-  font-size: clamp(18px, 2.2vw, 28px);
-  font-weight: 800;
-  letter-spacing: -0.02em;
+.contact-form {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 20px;
+  padding: clamp(24px, 4vw, 42px);
+  background: rgba(255, 255, 255, .64);
+  border: 1px solid rgba(7, 9, 8, .18);
+  box-shadow: 14px 14px 0 rgba(7, 9, 8, .1);
+}
+
+.form-field {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.form-field-wide {
+  grid-column: 1 / -1;
+}
+
+.form-field label {
+  color: #30342f;
+  font-size: 10px;
+  font-weight: 900;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+}
+
+.form-field input,
+.form-field select,
+.form-field textarea {
+  width: 100%;
+  min-height: 50px;
+  padding: 13px 14px;
+  border: 1px solid rgba(7, 9, 8, .35);
+  border-radius: 0;
+  background: var(--white);
+  color: var(--ink);
+  font: inherit;
+  font-size: 15px;
+}
+
+.form-field textarea {
+  min-height: 130px;
+  resize: vertical;
+}
+
+.form-field input:focus,
+.form-field select:focus,
+.form-field textarea:focus {
+  outline: 3px solid rgba(7, 9, 8, .17);
+  border-color: var(--ink);
+}
+
+.form-submit {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+
+.form-submit .button {
+  flex: 0 0 auto;
+  border: 0;
+  cursor: pointer;
+}
+
+.form-submit p {
+  margin: 0;
+  color: #535850;
+  font-size: 11px;
+  line-height: 1.45;
 }
 
 .button-dark {
@@ -774,6 +843,7 @@ footer p:last-child {
 .coach-section {
   display: grid;
   grid-template-columns: minmax(0, 1.05fr) minmax(0, .95fr);
+  align-items: stretch;
   min-height: 720px;
   background: var(--paper);
 }
@@ -788,8 +858,10 @@ footer p:last-child {
 .coach-image-wrap img {
   width: 100%;
   height: 100%;
+  min-width: 100%;
+  min-height: 100%;
   object-fit: cover;
-  object-position: center 24%;
+  object-position: 79% center;
 }
 
 .coach-image-wrap::after {
@@ -836,6 +908,14 @@ footer p:last-child {
   margin-top: 28px;
 }
 
+.coach-detail {
+  max-width: 640px;
+  margin: 16px 0 0;
+  color: #4a4f49;
+  font-size: 15px;
+  line-height: 1.65;
+}
+
 .coach-proof {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -846,17 +926,24 @@ footer p:last-child {
 }
 
 .coach-proof div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   min-height: 118px;
-  padding: 20px;
+  padding: 18px 14px;
   background: #e7e6e0;
+  text-align: center;
 }
 
 .coach-proof b {
   display: block;
   font-family: Impact, "Arial Narrow", Arial, sans-serif;
-  font-size: 28px;
+  font-size: clamp(20px, 2vw, 28px);
   letter-spacing: -.02em;
+  line-height: 1;
   text-transform: uppercase;
+  white-space: nowrap;
 }
 
 .coach-proof span {
@@ -865,6 +952,7 @@ footer p:last-child {
   color: #5a5e59;
   font-size: 11px;
   line-height: 1.4;
+  text-align: center;
   text-transform: uppercase;
 }
 
@@ -961,6 +1049,10 @@ footer p:last-child {
     gap: 35px;
   }
 
+  .contact-inner {
+    grid-template-columns: 1fr;
+  }
+
   .next-note {
     max-width: 520px;
   }
@@ -1004,7 +1096,7 @@ footer p:last-child {
   }
 
   .hero {
-    min-height: 750px;
+    min-height: 830px;
   }
 
   .hero-image {
@@ -1019,6 +1111,7 @@ footer p:last-child {
 
   .hero-content {
     margin-top: 0;
+    padding: 115px 0 145px;
   }
 
   .hero h1 {
@@ -1067,6 +1160,10 @@ footer p:last-child {
 
   .coach-image-wrap {
     min-height: 480px;
+  }
+
+  .coach-image-wrap img {
+    object-position: 76% center;
   }
 
   .coach-image-wrap::after {
@@ -1141,6 +1238,20 @@ footer p:last-child {
   .contact-inner {
     padding-top: 82px;
     padding-bottom: 82px;
+  }
+
+  .contact-form {
+    grid-template-columns: 1fr;
+    padding: 22px;
+  }
+
+  .form-field-wide {
+    grid-column: auto;
+  }
+
+  .form-submit {
+    align-items: stretch;
+    flex-direction: column;
   }
 
   footer {
