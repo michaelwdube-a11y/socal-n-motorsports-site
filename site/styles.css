@@ -498,9 +498,10 @@ img {
 }
 
 .intelligence-visual img {
+  display: block;
   width: 100%;
-  aspect-ratio: 3 / 2;
-  object-fit: cover;
+  height: auto;
+  object-fit: contain;
 }
 
 .steps {
@@ -1322,8 +1323,8 @@ footer p:last-child {
   }
 
   .intelligence-visual img {
-    aspect-ratio: 1 / 1;
-    object-position: 57% center;
+    height: auto;
+    object-fit: contain;
   }
 
   .steps {

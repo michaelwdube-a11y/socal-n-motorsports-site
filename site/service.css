@@ -30,6 +30,27 @@
   filter: saturate(.68) contrast(1.12) brightness(.58);
 }
 
+.intelligence-service-page .service-hero {
+  min-height: 560px;
+  background: radial-gradient(circle at 76% 30%, #263027 0%, #101510 36%, var(--ink) 72%);
+}
+
+.intelligence-service-page .service-hero-shade {
+  background: linear-gradient(90deg, rgba(4,6,5,.98) 0%, rgba(4,6,5,.72) 58%, rgba(4,6,5,.22) 100%);
+}
+
+.service-image-showcase {
+  padding-top: 56px;
+}
+
+.service-image-showcase img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 1px solid rgba(7,9,8,.2);
+  background: var(--ink);
+}
+
 .service-hero-shade {
   background: linear-gradient(90deg, rgba(4,6,5,.97) 0%, rgba(4,6,5,.7) 52%, rgba(4,6,5,.16) 88%), linear-gradient(0deg, rgba(4,6,5,.92), transparent 60%);
 }
@@ -334,6 +355,14 @@
   .service-hero {
     min-height: 680px;
     padding: 130px 0 80px;
+  }
+
+  .intelligence-service-page .service-hero {
+    min-height: 620px;
+  }
+
+  .service-image-showcase {
+    padding-top: 24px;
   }
 
   .service-hero h1 {
