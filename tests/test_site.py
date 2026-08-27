@@ -63,7 +63,7 @@ def main():
         SITE / "partnerships" / "index.html",
         SITE / "privacy" / "index.html",
     ]
-    store_url = "https://socalnmotorsports.store"
+    store_url = "https://socal-n-motorsports-store.michael-w-dube.chatgpt.site"
     for page in expected_pages:
         assert page.is_file(), f"missing page: {page.relative_to(SITE)}"
         page_html, _ = check_page(page)
