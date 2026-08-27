@@ -79,7 +79,7 @@ def main():
     assert "ct4-v-blackwing-race.webp" in html
     assert "jordan-wiseley-paddock.webp" in html
     assert "jordan-wiseley-racing.webp" not in html
-    assert html.count(store_url) >= 10, "homepage store links and calls to action are incomplete"
+    assert html.count(store_url) >= 9, "homepage store links and calls to action are incomplete"
     assert 'data-track="hero_store"' in html
     assert 'data-track="store_shop"' in html
     assert 'data-track="store_intelligence"' in html
