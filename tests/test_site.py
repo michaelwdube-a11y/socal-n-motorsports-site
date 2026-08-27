@@ -70,7 +70,7 @@ def main():
         assert store_url in page_html, f"store link is missing from {page.relative_to(SITE)}"
 
     html, parser = check_page(SITE / "index.html")
-    required_sections = {"top", "racing", "coach", "intelligence", "partners", "store", "contact"}
+    required_sections = {"top", "racing", "coach", "about", "intelligence", "partners", "store", "contact"}
     assert required_sections <= parser.ids, f"missing sections: {required_sections - parser.ids}"
     assert any(form.get("id") == "contact-form" for form in parser.forms), "contact form is missing"
     assert 'type="application/ld+json"' in html, "organization structured data is missing"
@@ -79,6 +79,11 @@ def main():
     assert "ct4-v-blackwing-race.webp" in html
     assert "jordan-wiseley-paddock.webp" in html
     assert "jordan-wiseley-racing.webp" not in html
+    for person in ("Michael Dube", "Jordan Wiseley", "Josh Sadler", "Willem Drees", "Corey Wells", "Chris DeLucia", "Anthony Scafuto"):
+        assert person in html, f"team profile is missing: {person}"
+    assert "sister company to KDM Motorsports" in html
+    assert "average sponsorship" not in html.lower()
+    assert "follower" not in html.lower()
     assert html.count(store_url) >= 9, "homepage store links and calls to action are incomplete"
     assert 'data-track="hero_store"' in html
     assert 'data-track="store_shop"' in html
