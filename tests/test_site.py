@@ -63,12 +63,14 @@ def main():
         SITE / "partnerships" / "index.html",
         SITE / "privacy" / "index.html",
     ]
+    store_url = "https://socalnmotorsports.store"
     for page in expected_pages:
         assert page.is_file(), f"missing page: {page.relative_to(SITE)}"
-        check_page(page)
+        page_html, _ = check_page(page)
+        assert store_url in page_html, f"store link is missing from {page.relative_to(SITE)}"
 
     html, parser = check_page(SITE / "index.html")
-    required_sections = {"top", "racing", "coach", "intelligence", "partners", "contact"}
+    required_sections = {"top", "racing", "coach", "intelligence", "partners", "store", "contact"}
     assert required_sections <= parser.ids, f"missing sections: {required_sections - parser.ids}"
     assert any(form.get("id") == "contact-form" for form in parser.forms), "contact form is missing"
     assert 'type="application/ld+json"' in html, "organization structured data is missing"
@@ -77,6 +79,10 @@ def main():
     assert "ct4-v-blackwing-race.webp" in html
     assert "jordan-wiseley-paddock.webp" in html
     assert "jordan-wiseley-racing.webp" not in html
+    assert html.count(store_url) >= 10, "homepage store links and calls to action are incomplete"
+    assert 'data-track="hero_store"' in html
+    assert 'data-track="store_shop"' in html
+    assert 'data-track="store_intelligence"' in html
     for phrase in ("Arrive-and-drive", "Zenith", "GRIDLIFE", "Practice days", "hill climbs", "insurance"):
         assert phrase in html, f"required homepage phrase is missing: {phrase}"
     assert "price" not in html.lower()

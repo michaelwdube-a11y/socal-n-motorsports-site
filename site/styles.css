@@ -83,7 +83,7 @@ img {
 .site-header nav {
   display: flex;
   align-items: center;
-  gap: 31px;
+  gap: 22px;
 }
 
 .site-header nav a {
@@ -104,6 +104,18 @@ img {
   padding: 13px 18px;
   border: 1px solid var(--acid);
   color: var(--acid);
+}
+
+.site-header .nav-store {
+  padding: 13px 18px;
+  background: var(--acid);
+  color: var(--ink);
+}
+
+.site-header .nav-store:hover,
+.site-header .nav-store:focus-visible {
+  background: #ccff37;
+  color: var(--ink);
 }
 
 .hero {
@@ -256,6 +268,16 @@ img {
 .button-secondary:focus-visible {
   border-color: var(--white);
   background: rgba(255, 255, 255, 0.08);
+}
+
+.button-store {
+  background: var(--white);
+  color: var(--ink);
+}
+
+.button-store:hover,
+.button-store:focus-visible {
+  background: var(--acid);
 }
 
 .hero-rail {
@@ -652,6 +674,113 @@ img {
   color: rgba(255,255,255,.62);
   font-size: 13px;
   line-height: 1.6;
+}
+
+.store-promo {
+  overflow: hidden;
+  padding: 110px 0;
+  background:
+    linear-gradient(135deg, rgba(184, 242, 26, .11), transparent 42%),
+    var(--ink);
+  color: var(--white);
+}
+
+.store-promo-inner {
+  display: grid;
+  grid-template-columns: minmax(0, .9fr) minmax(520px, 1.1fr);
+  gap: clamp(52px, 7vw, 110px);
+  align-items: center;
+}
+
+.store-promo-copy h2 {
+  margin: 0;
+  font-family: Impact, "Arial Narrow", Arial, sans-serif;
+  font-size: clamp(54px, 6vw, 88px);
+  font-weight: 900;
+  letter-spacing: -.03em;
+  line-height: .94;
+  text-transform: uppercase;
+}
+
+.store-promo-copy h2 em {
+  color: var(--acid);
+  font-style: normal;
+}
+
+.store-promo-copy > p:not(.eyebrow) {
+  max-width: 630px;
+  margin: 28px 0 0;
+  color: rgba(255,255,255,.68);
+  font-size: 17px;
+  line-height: 1.65;
+}
+
+.store-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 13px;
+  margin-top: 34px;
+}
+
+.store-promo-products {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  border: 1px solid rgba(255,255,255,.18);
+}
+
+.store-promo-products a {
+  min-height: 310px;
+  display: flex;
+  flex-direction: column;
+  padding: 28px 24px;
+  border-right: 1px solid rgba(255,255,255,.18);
+  background: rgba(255,255,255,.035);
+  transition: background 180ms ease, transform 180ms ease;
+}
+
+.store-promo-products a:last-child {
+  border-right: 0;
+}
+
+.store-promo-products a:hover,
+.store-promo-products a:focus-visible {
+  background: rgba(184,242,26,.1);
+  transform: translateY(-3px);
+}
+
+.store-promo-products span {
+  color: var(--acid);
+  font-family: "Courier New", monospace;
+  font-size: 10px;
+  letter-spacing: .08em;
+}
+
+.store-promo-products h3 {
+  margin: 70px 0 15px;
+  font-family: Impact, "Arial Narrow", Arial, sans-serif;
+  font-size: 29px;
+  letter-spacing: -.01em;
+  text-transform: uppercase;
+}
+
+.store-promo-products p {
+  margin: 0;
+  color: rgba(255,255,255,.56);
+  font-size: 13px;
+  line-height: 1.6;
+}
+
+.store-promo-products b {
+  margin-top: auto;
+  padding-top: 26px;
+  color: var(--white);
+  font-size: 10px;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+}
+
+.next-note .text-link {
+  margin-top: 20px;
 }
 
 .now-next {
@@ -1067,10 +1196,10 @@ footer p:last-child {
   }
 
   .site-header nav {
-    gap: 19px;
+    gap: 12px;
   }
 
-  .site-header nav a:not(.nav-cta) {
+  .site-header nav a:not(.nav-cta):not(.nav-store) {
     display: none;
   }
 
@@ -1149,6 +1278,10 @@ footer p:last-child {
     border-left: 0;
   }
 
+  .store-promo-inner {
+    grid-template-columns: 1fr;
+  }
+
   .now-next {
     grid-template-columns: 1fr;
     gap: 35px;
@@ -1216,8 +1349,13 @@ footer p:last-child {
     font-size: 18px;
   }
 
+  .site-header nav {
+    gap: 7px;
+  }
+
+  .site-header .nav-store,
   .site-header .nav-cta {
-    padding: 10px 11px;
+    padding: 10px 9px;
     font-size: 8px;
   }
 
@@ -1354,6 +1492,33 @@ footer p:last-child {
 
   .partner-content {
     padding: 80px 0;
+  }
+
+  .store-promo {
+    padding: 80px 0;
+  }
+
+  .store-promo-products {
+    grid-template-columns: 1fr;
+  }
+
+  .store-promo-products a,
+  .store-promo-products a:last-child {
+    min-height: 230px;
+    border-right: 0;
+    border-bottom: 1px solid rgba(255,255,255,.18);
+  }
+
+  .store-promo-products a:last-child {
+    border-bottom: 0;
+  }
+
+  .store-promo-products h3 {
+    margin-top: 42px;
+  }
+
+  .store-actions {
+    flex-direction: column;
   }
 
   .now-next {
