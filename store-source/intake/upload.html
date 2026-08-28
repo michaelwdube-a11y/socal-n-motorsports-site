@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Secure File Upload | SoCal N Motorsports</title>
+<link rel="stylesheet" href="../assets/store.css">
+</head><body>
+<header class="site-header">
+<a class="brand" href="../"><span class="brand-mark">N</span><span><b>SoCal N</b><small>MOTORSPORTS STORE</small></span></a>
+<nav style="display:flex"><a href="../">Store</a><a href="https://socalnmotorsports.com">Main Site ↗</a></nav>
+</header>
+<main class="workflow-shell">
+<section class="workflow-hero">
+<div><p class="eyebrow">SECURE MEDIA STAGING</p><h1>Upload telemetry + video.</h1>
+<p>Files go directly from your browser to private SoCal N cloud staging. They do not pass through GitHub Pages and they do not expose storage credentials.</p></div>
+<div class="workflow-card"><span class="status-chip">Private staging</span>
+<div class="order-summary" style="margin-top:18px"><span>Order</span><strong id="orderLabel">pending</strong><span>Intake</span><strong id="intakeLabel">pending</strong></div></div>
+</section>
+
+<div class="workflow-card">
+<h2>Select files</h2>
+<div class="upload-zone">
+<input id="files" type="file" multiple accept=".xrk,.drk,.csv,.ld,.log,.txt,.zip,.mp4,.mov,.mkv,.webm,.avi,video/*" style="max-width:100%">
+<p class="form-help">AIM files, CSV/log telemetry, onboard video, broadcast/external video, setup notes, or ZIP packages.</p>
+</div>
+<div id="queue" style="margin-top:20px"></div>
+<button class="cta" id="uploadBtn" style="margin-top:18px">Upload selected files</button>
+<p id="overallStatus" class="form-help"></p>
+</div>
+
+<div class="notice"><strong>Large-file behavior:</strong> files are split into parts and uploaded directly to R2 using short-lived signed URLs. Failed parts can be retried without restarting the entire video.</div>
+</main>
+<script src="../assets/multipart-upload.js"></script>
+</body></html>

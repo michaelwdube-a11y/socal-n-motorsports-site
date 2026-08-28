@@ -1,0 +1,6 @@
+Add to the Worker router:
+import { handleIntake } from "./intake.js";
+if (url.pathname === "/intake") return handleIntake(request, env);
+
+Then set each intake page:
+window.SOCALN_INTAKE_ENDPOINT="https://YOUR-WORKER.workers.dev/intake";

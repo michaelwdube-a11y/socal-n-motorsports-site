@@ -1,0 +1,15 @@
+[Unit]
+Description=SoCal N Store Media Bridge
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+WorkingDirectory=/home/mike/socal-ai
+EnvironmentFile=%h/.config/socaln/store-r2.env
+ExecStart=/home/mike/socal-ai/.venv/bin/python /home/mike/socal-ai/store_integration/store_media_bridge.py
+Restart=always
+RestartSec=10
+
+[Install]
+WantedBy=default.target

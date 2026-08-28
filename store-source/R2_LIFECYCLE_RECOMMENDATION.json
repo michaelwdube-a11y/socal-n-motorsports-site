@@ -1,0 +1,23 @@
+{
+  "rules": [
+    {
+      "id": "delete-incoming-after-14-days",
+      "enabled": true,
+      "prefix": "incoming/",
+      "expiration_days": 14
+    },
+    {
+      "id": "delete-job-markers-after-30-days",
+      "enabled": true,
+      "prefix": "jobs/",
+      "expiration_days": 30
+    },
+    {
+      "id": "delete-delivery-after-90-days",
+      "enabled": true,
+      "prefix": "delivery/",
+      "expiration_days": 90
+    }
+  ],
+  "note": "Translate these into Cloudflare R2 lifecycle rules in dashboard or API. Standard storage has no minimum storage duration."
+}

@@ -1,0 +1,33 @@
+{
+  "event": "customer.media.ready",
+  "version": 1,
+  "order_id": "square-order-id",
+  "intake_id": "uuid",
+  "product_id": "driver-data-review",
+  "customer": {
+    "name": "Sample Driver",
+    "email": "driver@example.com"
+  },
+  "session": {
+    "vehicle": "Hyundai Elantra N",
+    "track": "Road America",
+    "event_date": "2026-08-01"
+  },
+  "assets": [
+    {
+      "type": "telemetry",
+      "format": "AIM",
+      "uri": "s3://.../session.xrk"
+    },
+    {
+      "type": "onboard_video",
+      "format": "mp4",
+      "uri": "s3://.../onboard.mp4"
+    }
+  ],
+  "requested_outputs": [
+    "driver_report",
+    "coaching_priorities",
+    "next_session_plan"
+  ]
+}

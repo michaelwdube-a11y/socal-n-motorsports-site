@@ -1,0 +1,82 @@
+[
+  {
+    "id": "team-tee",
+    "name": "SoCal N Team Tee",
+    "category": "Merchandise",
+    "price": 35,
+    "desc": "Official team tee with a clean paddock-first design.",
+    "tag": "TEAM GEAR",
+    "physical": true
+  },
+  {
+    "id": "paddock-hoodie",
+    "name": "Paddock Hoodie",
+    "category": "Merchandise",
+    "price": 68,
+    "desc": "Midweight team hoodie for cold mornings and late paddock nights.",
+    "tag": "TEAM GEAR",
+    "physical": true
+  },
+  {
+    "id": "team-cap",
+    "name": "Team Cap",
+    "category": "Merchandise",
+    "price": 32,
+    "desc": "Low-profile SoCal N team cap for track days and everyday wear.",
+    "tag": "TEAM GEAR",
+    "physical": true
+  },
+  {
+    "id": "driver-data-review",
+    "name": "AI Driver Data Review",
+    "category": "Digital Products",
+    "price": 249,
+    "desc": "Upload a supported data log and receive a structured performance review with priorities for the next session.",
+    "tag": "DIGITAL",
+    "page": "products/driver-data-review.html",
+    "sample": "samples/driver-data-review-sample.html",
+    "physical": false
+  },
+  {
+    "id": "data-video-deep-dive",
+    "name": "Data + Video Deep Dive",
+    "category": "Digital Products",
+    "price": 399,
+    "desc": "Correlated telemetry and onboard-video analysis with corner-by-corner findings and coaching priorities.",
+    "tag": "DIGITAL",
+    "page": "products/data-video-deep-dive.html",
+    "sample": "samples/data-video-deep-dive-sample.html",
+    "physical": false
+  },
+  {
+    "id": "track-intelligence-pack",
+    "name": "Track Intelligence Pack",
+    "category": "Digital Products",
+    "price": 49,
+    "desc": "A pre-event track brief with corner objectives, preparation prompts, and session planning tools.",
+    "tag": "PRE-EVENT",
+    "page": "products/track-intelligence-pack.html",
+    "sample": "samples/track-intelligence-pack-sample.html",
+    "physical": false
+  },
+  {
+    "id": "track-coaching-session",
+    "name": "Track Coaching Session",
+    "category": "Coaching",
+    "price": 499,
+    "desc": "Private coaching session. Scheduling and event availability are confirmed after purchase.",
+    "tag": "COACHING",
+    "page": "products/track-coaching.html",
+    "physical": false
+  },
+  {
+    "id": "arrive-drive-deposit",
+    "name": "Arrive & Drive Reservation",
+    "category": "Race Experiences",
+    "price": 1000,
+    "desc": "Reservation deposit toward an eligible SoCal N Motorsports race experience.",
+    "tag": "RACE WITH US",
+    "page": "products/arrive-and-drive.html",
+    "physical": false
+  }
+]

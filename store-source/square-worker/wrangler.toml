@@ -1,0 +1,12 @@
+name = "socaln-square-checkout"
+main = "worker.js"
+compatibility_date = "2026-08-26"
+
+[vars]
+SQUARE_ENVIRONMENT = "sandbox"
+
+# Secrets are never committed. Configure with deploy-square.sh or Wrangler:
+# SQUARE_ACCESS_TOKEN
+# SQUARE_LOCATION_ID
+# SQUARE_WEBHOOK_SIGNATURE_KEY (after creating Square webhook subscription)
+# SQUARE_WEBHOOK_URL (exact deployed Worker /webhook URL)

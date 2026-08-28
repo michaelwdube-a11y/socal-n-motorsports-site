@@ -1,0 +1,10 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Order Confirmed | SoCal N Motorsports</title><link rel="stylesheet" href="assets/store.css"></head><body>
+<header class="site-header"><a class="brand" href="./"><span class="brand-mark">N</span><span><b>SoCal N</b><small>MOTORSPORTS STORE</small></span></a></header>
+<main class="success-panel"><div class="check">✓</div><p class="eyebrow">ORDER RECEIVED</p><h1>You're in.</h1><p style="color:#aeb7c1;line-height:1.7">Your Square payment webhook is the authoritative confirmation for fulfillment. Continue below to start the next step for your purchase.</p><div class="success-actions"><a class="cta" id="continueBtn" href="/">Continue</a><a class="cta secondary" href="/">Back to store</a></div><p class="form-help" id="orderInfo"></p></main>
+<script>
+const q=new URLSearchParams(location.search),product=q.get("product")||"",order=q.get("order")||"";
+const routes={"driver-data-review":"intake/digital-analysis.html","data-video-deep-dive":"intake/digital-analysis.html","track-intelligence-pack":"intake/digital-analysis.html","track-coaching-session":"intake/coaching.html","arrive-drive-deposit":"intake/arrive-and-drive.html"};
+const target=routes[product];
+if(target){const u=new URL(target,location.href);if(order)u.searchParams.set("order",order);u.searchParams.set("product",product);const b=document.getElementById("continueBtn");b.href=u.href;b.textContent=product==="arrive-drive-deposit"?"Start driver onboarding":product==="track-coaching-session"?"Start coaching intake":"Start upload intake";}
+document.getElementById("orderInfo").textContent=order?`Order ${order}`:"";try{localStorage.removeItem("socaln-cart")}catch(e){}
+</script></body></html>

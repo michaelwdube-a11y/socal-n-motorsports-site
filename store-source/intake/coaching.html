@@ -1,0 +1,30 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Coaching Intake | SoCal N Motorsports</title><link rel="stylesheet" href="../assets/store.css"></head><body>
+<header class="site-header"><a class="brand" href="../"><span class="brand-mark">N</span><span><b>SoCal N</b><small>MOTORSPORTS STORE</small></span></a><nav style="display:flex"><a href="../">Store</a><a href="https://socalnmotorsports.com">Main Site ↗</a></nav></header>
+<main class="workflow-shell">
+<section class="workflow-hero"><div><p class="eyebrow">PURCHASE COMPLETE • COACHING INTAKE</p><h1>Prepare your coaching session.</h1>
+<p>Your coaching order has started. Tell us about the driver, car, event and specific goals so the session can be prepared around the highest-value areas.</p></div>
+<div class="workflow-card"><span class="status-chip">Intake ready</span><div class="order-summary" style="margin-top:20px"><span>Order</span><strong id="orderId">pending</strong><span>Product</span><strong id="productName">Digital analysis</strong></div></div></section>
+<div class="workflow-steps">
+<div class="workflow-step"><div><strong>Complete this intake</strong><small>Vehicle, track, goals and available data sources.</small></div></div>
+<div class="workflow-step"><div><strong>Upload telemetry + video</strong><small>The production endpoint sends a secure upload destination after intake.</small></div></div>
+<div class="workflow-step"><div><strong>Coach preparation</strong><small>Your goals, experience, telemetry and video can be reviewed before the coaching session where applicable.</small></div></div>
+<div class="workflow-step"><div><strong>Run the session</strong><small>Coaching focuses on actionable priorities and a clear plan for the next laps or event.</small></div></div>
+</div>
+<form id="intakeForm" class="workflow-card"><h2>Driver intake</h2><input type="hidden" name="order_id"><input type="hidden" name="product_id">
+<div class="form-grid">
+<div class="form-field"><label>Driver name</label><input name="driver_name" required autocomplete="name"></div>
+<div class="form-field"><label>Email</label><input name="email" type="email" required autocomplete="email"></div>
+<div class="form-field"><label>Vehicle</label><input name="vehicle" required placeholder="e.g. Hyundai Elantra N"></div>
+<div class="form-field"><label>Track / course</label><input name="track" required placeholder="e.g. Road America"></div>
+<div class="form-field"><label>Event / date</label><input name="event_date" placeholder="Event name and date"></div>
+<div class="form-field"><label>Data logger</label><select name="logger"><option>AIM</option><option>MoTeC</option><option>Garmin Catalyst</option><option>RaceChrono</option><option>Harry's LapTimer</option><option>OBD / CAN log</option><option>Other</option><option>No telemetry</option></select></div>
+<div class="form-field full"><label>What do you want to improve?</label><textarea name="goals" required placeholder="Braking confidence, consistency, rotation, throttle application, one specific corner, overall lap time..."></textarea></div>
+<div class="form-field full"><label>Known issues or context</label><textarea name="context" placeholder="Setup changes, traffic, tires, weather, mechanical issues, instructor comments..."></textarea></div>
+<div class="form-field full"><label>Files available</label><div class="upload-zone"><strong>Telemetry, onboard video, broadcast video, setup notes</strong><small>The production workflow returns a secure upload destination for large files.</small></div>
+<div style="margin-top:12px;display:flex;gap:18px;flex-wrap:wrap">
+<label><input type="checkbox" name="has_telemetry" value="yes"> Telemetry</label><label><input type="checkbox" name="has_onboard_video" value="yes"> Onboard video</label><label><input type="checkbox" name="has_external_video" value="yes"> External/broadcast video</label><label><input type="checkbox" name="has_setup_notes" value="yes"> Setup notes</label></div></div>
+<div class="form-field full"><label>Anything else?</label><textarea name="notes"></textarea></div></div>
+<button class="cta" type="submit" style="margin-top:20px">Submit intake</button><p id="formStatus" class="form-help"></p></form>
+<div class="notice">Large telemetry/video files should upload directly to object storage or a protected local ingestion gateway using signed URLs. They should not be proxied through GitHub Pages.</div>
+</main><script>window.SOCALN_INTAKE_ENDPOINT="";</script><script src="../assets/intake.js"></script></body></html>
