@@ -2,7 +2,7 @@ name: Deploy GitHub Pages
 
 on:
   push:
-    branches: [main]
+    branches: [store-staging]
   workflow_dispatch:
 
 permissions:
@@ -26,10 +26,10 @@ jobs:
 
       - name: Verify site files
         run: |
-          test -f site/index.html
-          test -f site/styles.css
-          test -f site/assets/hero-race.jpg
-          test -f site/assets/jordan-wiseley-racing.webp
+          test -f store-source/index.html
+          test -f store-source/styles.css
+          test -f store-source/assets/hero-race.jpg
+          test -f store-source/assets/store.js
 
       - name: Configure Pages
         uses: actions/configure-pages@v5
@@ -37,7 +37,7 @@ jobs:
       - name: Upload site
         uses: actions/upload-pages-artifact@v4
         with:
-          path: site
+          path: store-source
 
       - name: Publish site
         id: deployment
