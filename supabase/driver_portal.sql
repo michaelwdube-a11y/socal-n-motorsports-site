@@ -70,6 +70,17 @@ create trigger auth_user_to_portal
 after insert or update of email on auth.users
 for each row execute function private.sync_portal_user();
 
+-- Include accounts that existed before this portal schema was installed.
+insert into public.portal_users (id, email, is_admin)
+select
+  id,
+  coalesce(email, ''),
+  lower(coalesce(email, '')) = 'michael.w.dube@gmail.com'
+from auth.users
+on conflict (id) do update
+set email = excluded.email,
+    is_admin = public.portal_users.is_admin or excluded.is_admin;
+
 alter table public.portal_users enable row level security;
 alter table public.driver_submissions enable row level security;
 alter table public.submission_assets enable row level security;
