@@ -1,4 +1,4 @@
-const PORTAL='https://socal-n-motorsports.michael-w-dube.chatgpt.site/driver-portal';
+const PORTAL='../driver-portal/';
 const state={drivers:[],filtered:[],selected:null};
 const $=s=>document.querySelector(s);
 const esc=v=>String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
