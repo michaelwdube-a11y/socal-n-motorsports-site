@@ -1,0 +1,4069 @@
+{
+  "schemaVersion": "socal-driver-sponsor-kit-v1",
+  "driverCount": 206,
+  "drivers": [
+    {
+      "key": "adam_daniels",
+      "name": "Adam Daniels",
+      "status": "active_event_driver",
+      "classes": [
+        "Drift"
+      ],
+      "series": [
+        "DRIFT"
+      ],
+      "carNumbers": [],
+      "vehicles": [
+        "'96 318i Convertible"
+      ],
+      "verifiedEntryCount": 1,
+      "verifiedProfile": null
+    },
+    {
+      "key": "adam_slowinski",
+      "name": "Adam Slowinski",
+      "status": "active_event_driver",
+      "classes": [
+        "Track Mod"
+      ],
+      "series": [
+        "TrackBattle"
+      ],
+      "carNumbers": [
+        "516"
+      ],
+      "vehicles": [
+        "'24 M4 Competition M Xdriv"
+      ],
+      "verifiedEntryCount": 1,
+      "verifiedProfile": null
+    },
+    {
+      "key": "adam_spence",
+      "name": "Adam Spence",
+      "status": "active_event_driver",
+      "classes": [
+        "Rush SR"
+      ],
+      "series": [
+        "RUSH SR"
+      ],
+      "carNumbers": [
+        "60"
+      ],
+      "vehicles": [
+        "'23 SR"
+      ],
+      "verifiedEntryCount": 1,
+      "verifiedProfile": null
+    },
+    {
+      "key": "adam_wrobel",
+      "name": "Adam Wrobel",
+      "status": "active_event_driver",
+      "classes": [
+        "Falken Club TR"
+      ],
+      "series": [
+        "TrackBattle"
+      ],
+      "carNumbers": [
+        "15"
+      ],
+      "vehicles": [
+        "'98 Integra"
+      ],
+      "verifiedEntryCount": 1,
+      "verifiedProfile": null
+    },
+    {
+      "key": "aj_campo",
+      "name": "AJ Campo",
+      "status": "active_event_driver",
+      "classes": [
+        "Rush SR"
+      ],
+      "series": [
+        "RUSH SR"
+      ],
+      "carNumbers": [
+        "227"
+      ],
+      "vehicles": [
+        "'23 SR"
+      ],
+      "verifiedEntryCount": 1,
+      "verifiedProfile": null
+    },
+    {
+      "key": "aj_hartman",
+      "name": "AJ Hartman",
+      "status": "active_event_driver",
+      "classes": [
+        "GLGT"
+      ],
+      "series": [
+        "GLGT"
+      ],
+      "carNumbers": [
+        "24"
+      ],
+      "vehicles": [
+        "'99 Mustang"
+      ],
+      "verifiedEntryCount": 1,
+      "verifiedProfile": null
+    },
+    {
+      "key": "alex_peitz",
+      "name": "Alex Peitz",
+      "status": "active_event_driver",
+      "classes": [
+        "GLGT"
+      ],
+      "series": [
+        "GLGT"
+      ],
+      "carNumbers": [
+        "6"
+      ],
+      "vehicles": [
+        "'20 Corvette"
+      ],
+      "verifiedEntryCount": 1,
+      "verifiedProfile": null
+    },
+    {
+      "key": "alex_westergaard",
+      "name": "Alex Westergaard",
+      "status": "active_event_driver",
+      "classes": [
+        "Street Mod"
+      ],
+      "series": [
+        "TrackBattle"
+      ],
+      "carNumbers": [
+        "35"
+      ],
+      "vehicles": [
+        "'01 S2000"
+      ],
+      "verifiedEntryCount": 1,
+      "verifiedProfile": null
+    },
+    {
+      "key": "alexander_gutierrez",
+      "name": "Alexander Gutierrez",
+      "status": "active_event_driver",
+      "classes": [
+        "Drift"
+      ],
+      "series": [
+        "DRIFT"
+      ],
+      "carNumbers": [],
+      "vehicles": [
+        "'88 740 Wagon"
+      ],
+      "verifiedEntryCount": 1,
+      "verifiedProfile": null
+    },
+    {
+      "key": "allen_qiu",
+      "name": "Allen Qiu",
+      "status": "active_event_driver",
+      "classes": [
+        "Street Mod"
+      ],
+      "series": [
+        "TrackBattle"
+      ],
+      "carNumbers": [
+        "118"
+      ],
+      "vehicles": [
+        "'05 S2000"
+      ],
+      "verifiedEntryCount": 1,
+      "verifiedProfile": null
+    },
+    {
+      "key": "andrew_dimartino",
+      "name": "Andrew Dimartino",
+      "status": "active_event_driver",
+      "classes": [
+        "Drift"
+      ],
+      "series": [
+        "DRIFT"
+      ],
+      "carNumbers": [],
+      "vehicles": [],
+      "verifiedEntryCount": 1,
+      "verifiedProfile": null
+    },
+    {
+      "key": "andy_smedegard",
+      "name": "Andy Smedegard",
+      "status": "active_event_driver",
+      "classes": [
+        "GLTC"
+      ],
+      "series": [
+        "GLTC"
+      ],
+      "carNumbers": [
+        "212"
+      ],
+      "vehicles": [
+        "'13 86"
+      ],
+      "verifiedEntryCount": 1,
+      "verifiedProfile": null
+    },
+    {
+      "key": "andy_voelkel",
+      "name": "Andy Voelkel",
+      "status": "active_event_driver",
+      "classes": [
+        "Rush SR"
+      ],
+      "series": [
+        "RUSH SR"
+      ],
+      "carNumbers": [
+        "34"
+      ],
+      "vehicles": [
+        "'25 SR"
+      ],
+      "verifiedEntryCount": 1,
+      "verifiedProfile": null
+    },
+    {
+      "key": "anna_marsh",
+      "name": "Anna Marsh",
+      "status": "active_event_driver",
+      "classes": [
+        "Drift"
+      ],
+      "series": [
+        "DRIFT"
+      ],
+      "carNumbers": [],
+      "vehicles": [
+        "'93 GS 300"
+      ],
+      "verifiedEntryCount": 1,
+      "verifiedProfile": null
+    },
+    {
+      "key": "anthony_scafuto",
+      "name": "Anthony Scafuto",
+      "status": "public_source_non_event_driver",
+      "classes": [],
+      "series": [
+        "GLGT"
+      ],
+      "carNumbers": [],
+      "vehicles": [],
+      "verifiedEntryCount": 1,
+      "verifiedProfile": null
+    },
+    {
+      "key": "aryton_grim",
+      "name": "Aryton Grim",
+      "status": "active_event_driver",
+      "classes": [
+        "GLTC",
+        "Rush SR"
+      ],
+      "series": [
+        "GLTC",
+        "RUSH SR"
+      ],
+      "carNumbers": [
+        "2",
+        "121"
+      ],
+      "vehicles": [
+        "'06 MX-5 Miata",
+        "'24 SR"
+      ],
+      "verifiedEntryCount": 5,
+      "verifiedProfile": null
+    },
+    {
+      "key": "austin_o_brien",
+      "name": "Austin O'Brien",
+      "status": "active_event_driver",
+      "classes": [
+        "Falken Club SC"
+      ],
+      "series": [
+        "TrackBattle"
+      ],
+      "carNumbers": [
+        "412"
+      ],
+      "vehicles": [
+        "'11 Fit"
+      ],
+      "verifiedEntryCount": 1,
+      "verifiedProfile": null
+    },
+    {
+      "key": "azmath_mohammed",
+      "name": "Azmath Mohammed",
+      "status": "active_event_driver",
+      "classes": [
+        "GLTC"
+      ],
+      "series": [
+        "GLTC"
+      ],
+      "carNumbers": [
+        "50"
+      ],
+      "vehicles": [
+        "'00 MR2"
+      ],
+      "verifiedEntryCount": 1,
+      "verifiedProfile": null
+    },
+    {
+      "key": "becky_robertson",
+      "name": "Becky Robertson",
+      "status": "active_event_driver",
+      "classes": [
+        "Falken Club SC"
+      ],
+      "series": [
+        "TrackBattle"
+      ],
+      "carNumbers": [
+        "9"
+      ],
+      "vehicles": [
+        "'11 2"
+      ],
+      "verifiedEntryCount": 1,
+      "verifiedProfile": null
+    },
+    {
+      "key": "ben_carroll",
+      "name": "Ben Carroll",
+      "status": "active_event_driver",
+      "classes": [
+        "Rush SR"
+      ],
+      "series": [
+        "RUSH SR"
+      ],
+      "carNumbers": [
+        "68"
+      ],
+      "vehicles": [
+        "'25 SR"
+      ],
+      "verifiedEntryCount": 1,
+      "verifiedProfile": null
+    },
+    {
+      "key": "ben_lin",
+      "name": "Ben Lin",
+      "status": "active_event_driver",
+      "classes": [
+        "Unlimited"
+      ],
+      "series": [
+        "TrackBattle"
+      ],
+      "carNumbers": [
+        "60"
+      ],
+      "vehicles": [
+        "'01 MR2"
+      ],
+      "verifiedEntryCount": 1,
+      "verifiedProfile": null
+    },
+    {
+      "key": "ben_thorn",
+      "name": "Ben Thorn",
+      "status": "active_event_driver",
+      "classes": [
+        "Unlimited"
+      ],
+      "series": [
+        "TrackBattle"
+      ],
+      "carNumbers": [
+        "166"
+      ],
+      "vehicles": [
+        "'97 Civic"
+      ],
+      "verifiedEntryCount": 1,
+      "verifiedProfile": null
+    },
+    {
+      "key": "benjamin_smolen",
+      "name": "Benjamin Smolen",
+      "status": "active_event_driver",
+      "classes": [
+        "Street"
+      ],
+      "series": [
+        "TrackBattle"
+      ],
+      "carNumbers": [
+        "373"
+      ],
+      "vehicles": [
+        "'24 Golf R"
+      ],
+      "verifiedEntryCount": 1,
+      "verifiedProfile": null
+    },
+    {
+      "key": "benson_tai",
+      "name": "Benson Tai",
+      "status": "active_event_driver",
+      "classes": [
+        "Street"
+      ],
+      "series": [
+        "TrackBattle"
+      ],
+      "carNumbers": [
+        "853"
+      ],
+      "vehicles": [
+        "'05 S2000"
+      ],
+      "verifiedEntryCount": 1,
+      "verifiedProfile": null
+    },
+    {
+      "key": "besik_george_menabde",
+      "name": "Besik George Menabde",
+      "status": "active_event_driver",
+      "classes": [
+        "GLTC"
+      ],
+      "series": [
+        "GLTC"
+      ],
+      "carNumbers": [
+        "6"
+      ],
+      "vehicles": [
+        "'01 330ci"
+      ],
+      "verifiedEntryCount": 1,
+      "verifiedProfile": null
+    },
+    {
+      "key": "bill_dorrance",
+      "name": "Bill Dorrance",
+      "status": "active_event_driver",
+      "classes": [
+        "Rush SR"
+      ],
+      "series": [
+        "RUSH SR"
+      ],
+      "carNumbers": [
+        "20"
+      ],
+      "vehicles": [
+        "'25 SR"
+      ],
+      "verifiedEntryCount": 1,
+      "verifiedProfile": null
+    },
+    {
+      "key": "blair_hosie",
+      "name": "Blair Hosie",
+      "status": "active_event_driver",
+      "classes": [
+        "Rush SR"
+      ],
+      "series": [
+        "RUSH SR"
+      ],
+      "carNumbers": [
+        "8"
+      ],
+      "vehicles": [
+        "'23 SR"
+      ],
+      "verifiedEntryCount": 3,
+      "verifiedProfile": null
+    },
+    {
+      "key": "blake_fitzgerald",
+      "name": "Blake Fitzgerald",
+      "status": "active_event_driver",
+      "classes": [
+        "Falken Club TR"
+      ],
+      "series": [
+        "TrackBattle"
+      ],
+      "carNumbers": [
+        "418"
+      ],
+      "vehicles": [
+        "'01 S2000"
+      ],
+      "verifiedEntryCount": 1,
+      "verifiedProfile": null
+    },
+    {
+      "key": "blake_korth",
+      "name": "Blake Korth",
+      "status": "active_event_driver",
+      "classes": [
+        "GLTC"
+      ],
+      "series": [
+        "GLTC"
+      ],
+      "carNumbers": [
+        "777"
+      ],
+      "vehicles": [
+        "'14 MX-5"
+      ],
+      "verifiedEntryCount": 1,
+      "verifiedProfile": null
+    },
+    {
+      "key": "bob_kaser",
+      "name": "Bob Kaser",
+      "status": "active_event_driver",
+      "classes": [
+        "GLGT"
+      ],
+      "series": [
+        "GLGT"
+      ],
+      "carNumbers": [
+        "90"
+      ],
+      "vehicles": [
+        "'13 Boss 302"
+      ],
+      "verifiedEntryCount": 1,
+      "verifiedProfile": null
+    },
+    {
+      "key": "brad_perkins",
+      "name": "Brad Perkins",
+      "status": "active_event_driver",
+      "classes": [
+        "Track Mod"
+      ],
+      "series": [
+        "TrackBattle"
+      ],
+      "carNumbers": [
+        "27"
+      ],
+      "vehicles": [
+        "'04 M3"
+      ],
+      "verifiedEntryCount": 1,
+      "verifiedProfile": null
+    },
+    {
+      "key": "brandon_ganem",
+      "name": "Brandon Ganem",
+      "status": "active_event_driver",
+      "classes": [
+        "GLTC"
+      ],
+      "series": [
+        "GLTC"
+      ],
+      "carNumbers": [
+        "105"
+      ],
+      "vehicles": [
+        "'04 RX-8"
+      ],
+      "verifiedEntryCount": 1,
+      "verifiedProfile": null
+    },
+    {
+      "key": "bret_digiacomo",
+      "name": "Bret Digiacomo",
+      "status": "active_event_driver",
+      "classes": [
+        "Rush SR"
+      ],
+      "series": [
+        "RUSH SR"
+      ],
+      "carNumbers": [
+        "12"
+      ],
+      "vehicles": [
+        "'21 SR"
+      ],
+      "verifiedEntryCount": 1,
+      "verifiedProfile": null
+    },
+    {
+      "key": "brian_hendricks",
+      "name": "Brian Hendricks",
+      "status": "active_event_driver",
+      "classes": [
+        "GLTC"
+      ],
+      "series": [
+        "GLTC"
+      ],
+      "carNumbers": [
+        "647"
+      ],
+      "vehicles": [
+        "'07 Z Nismo"
+      ],
+      "verifiedEntryCount": 1,
+      "verifiedProfile": null
+    },
+    {
+      "key": "bronson_mcnemar",
+      "name": "Bronson McNemar",
+      "status": "active_event_driver",
+      "classes": [
+        "Track Mod"
+      ],
+      "series": [
+        "TrackBattle"
+      ],
+      "carNumbers": [
+        "114"
+      ],
+      "vehicles": [
+        "'00 MX-5 Miata"
+      ],
+      "verifiedEntryCount": 1,
+      "verifiedProfile": null
+    },
+    {
+      "key": "bruce_yhun",
+      "name": "Bruce Yhun",
+      "status": "active_event_driver",
+      "classes": [
+        "Falken Club TR"
+      ],
+      "series": [
+        "TrackBattle"
+      ],
+      "carNumbers": [
+        "198"
+      ],
+      "vehicles": [
+        "'11 CR-Z"
+      ],
+      "verifiedEntryCount": 1,
+      "verifiedProfile": null
+    },
+    {
+      "key": "bryan_blair",
+      "name": "Bryan Blair",
+      "status": "active_event_driver",
+      "classes": [
+        "Rush SR"
+      ],
+      "series": [
+        "RUSH SR"
+      ],
+      "carNumbers": [
+        "777"
+      ],
+      "vehicles": [
+        "'24 SR"
+      ],
+      "verifiedEntryCount": 1,
+      "verifiedProfile": null
+    },
+    {
+      "key": "bryan_hedian",
+      "name": "Bryan Hedian",
+      "status": "active_event_driver",
+      "classes": [
+        "GLTC"
+      ],
+      "series": [
+        "GLTC"
+      ],
+      "carNumbers": [
+        "824"
+      ],
+      "vehicles": [
+        "'04 S2000"
+      ],
+      "verifiedEntryCount": 1,
+      "verifiedProfile": null
+    },
+    {
+      "key": "bryce_mersberger",
+      "name": "Bryce Mersberger",
+      "status": "active_event_driver",
+      "classes": [
+        "Rush SR"
+      ],
+      "series": [
+        "RUSH SR"
+      ],
+      "carNumbers": [
+        "114"
+      ],
+      "vehicles": [
+        "'25 SR"
+      ],
+      "verifiedEntryCount": 1,
+      "verifiedProfile": null
+    },
+    {
+      "key": "carlos_alvarez",
+      "name": "Carlos Alvarez",
+      "status": "active_event_driver",
+      "classes": [
+        "Street GT"
+      ],
+      "series": [
+        "TrackBattle"
+      ],
+      "carNumbers": [
+        "669"
+      ],
+      "vehicles": [
+        "'24 M2 Coupe"
+      ],
+      "verifiedEntryCount": 1,
+      "verifiedProfile": null
+    },
+    {
+      "key": "carlos_mendez",
+      "name": "Carlos Mendez",
+      "status": "public_source_non_event_driver",
+      "classes": [],
+      "series": [],
+      "carNumbers": [],
+      "vehicles": [],
+      "verifiedEntryCount": 0,
+      "verifiedProfile": null
+    },
+    {
+      "key": "charles_kennedy",
+      "name": "Charles Kennedy",
+      "status": "active_event_driver",
+      "classes": [
+        "Drift"
+      ],
+      "series": [
+        "DRIFT"
+      ],
+      "carNumbers": [],
+      "vehicles": [],
+      "verifiedEntryCount": 1,
+      "verifiedProfile": null
+    },
+    {
+      "key": "chris_boersma",
+      "name": "Chris Boersma",
+      "status": "active_event_driver",
+      "classes": [
+        "Track Mod"
+      ],
+      "series": [
+        "TrackBattle"
+      ],
+      "carNumbers": [
+        "33"
+      ],
+      "vehicles": [
+        "'99 Civic"
+      ],
+      "verifiedEntryCount": 1,
+      "verifiedProfile": null
+    },
+    {
+      "key": "chris_delucia",
+      "name": "Chris Delucia",
+      "status": "active_event_driver",
+      "classes": [
+        "GLGT"
+      ],
+      "series": [
+        "GLGT"
+      ],
+      "carNumbers": [
+        "40"
+      ],
+      "vehicles": [
+        "'93 325is"
+      ],
+      "verifiedEntryCount": 1,
+      "verifiedProfile": null
+    },
+    {
+      "key": "chris_ferraro",
+      "name": "Chris Ferraro",
+      "status": "active_event_driver",
+      "classes": [
+        "Unlimited"
+      ],
+      "series": [
+        "TrackBattle"
+      ],
+      "carNumbers": [
+        "632"
+      ],
+      "vehicles": [
+        "'04 M3"
+      ],
+      "verifiedEntryCount": 1,
+      "verifiedProfile": null
+    },
+    {
+      "key": "chris_fosnacht",
+      "name": "Chris Fosnacht",
+      "status": "active_event_driver",
+      "classes": [
+        "Drift"
+      ],
+      "series": [
+        "DRIFT"
+      ],
+      "carNumbers": [],
+      "vehicles": [
+        "'99 MX-5 Miata"
+      ],
+      "verifiedEntryCount": 1,
+      "verifiedProfile": null
+    },
+    {
+      "key": "chris_hatch",
+      "name": "Chris Hatch",
+      "status": "active_event_driver",
+      "classes": [
+        "Street"
+      ],
+      "series": [
+        "TrackBattle"
+      ],
+      "carNumbers": [
+        "160"
+      ],
+      "vehicles": [
+        "'24 Model 3 Long Range AW"
+      ],
+      "verifiedEntryCount": 1,
+      "verifiedProfile": null
+    },
+    {
+      "key": "chris_smith",
+      "name": "Chris Smith",
+      "status": "active_event_driver",
+      "classes": [
+        "Track Mod"
+      ],
+      "series": [
+        "TrackBattle"
+      ],
+      "carNumbers": [
+        "212"
+      ],
+      "vehicles": [
+        "'08 135i"
+      ],
+      "verifiedEntryCount": 1,
+      "verifiedProfile": null
+    },
+    {
+      "key": "christian_aranha",
+      "name": "Christian Aranha",
+      "status": "active_event_driver",
+      "classes": [
+        "GLGT"
+      ],
+      "series": [
+        "GLGT"
+      ],
+      "carNumbers": [
+        "57"
+      ],
+      "vehicles": [
+        "'03 Corvette"
+      ],
+      "verifiedEntryCount": 3,
+      "verifiedProfile": null
+    },
+    {
+      "key": "christopher_acosta",
+      "name": "Christopher Acosta",
+      "status": "active_event_driver",
+      "classes": [
+        "Falken Club TR"
+      ],
+      "series": [
+        "TrackBattle"
+      ],
+      "carNumbers": [
+        "59"
+      ],
+      "vehicles": [
+        "'97 Civic 4DR"
+      ],
+      "verifiedEntryCount": 1,
+      "verifiedProfile": null
+    },
+    {
+      "key": "christopher_amalfitano",
+      "name": "Christopher Amalfitano",
+      "status": "active_event_driver",
+      "classes": [
+        "Falken Club TR"
+      ],
+      "series": [
+        "TrackBattle"
+      ],
+      "carNumbers": [
+        "97"
+      ],
+      "vehicles": [
+        "'05 S2000"
+      ],
+      "verifiedEntryCount": 1,
+      "verifiedProfile": null
+    },
+    {
+      "key": "christopher_gaydos",
+      "name": "Christopher Gaydos",
+      "status": "active_event_driver",
+      "classes": [
+        "GLTC"
+      ],
+      "series": [
+        "GLTC"
+      ],
+      "carNumbers": [
+        "214"
+      ],
+      "vehicles": [
+        "'03 M3 Coupe"
+      ],
+      "verifiedEntryCount": 1,
+      "verifiedProfile": null
+    },
+    {
+      "key": "chuck_mayer",
+      "name": "Chuck Mayer",
+      "status": "active_event_driver",
+      "classes": [
+        "Street"
+      ],
+      "series": [
+        "TrackBattle"
+      ],
+      "carNumbers": [
+        "177"
+      ],
+      "vehicles": [
+        "'14 WRX"
+      ],
+      "verifiedEntryCount": 1,
+      "verifiedProfile": null
+    },
+    {
+      "key": "clay_coughlin",
+      "name": "Clay Coughlin",
+      "status": "active_event_driver",
+      "classes": [
+        "Falken Club SC"
+      ],
+      "series": [
+        "TrackBattle"
+      ],
+      "carNumbers": [
+        "387"
+      ],
+      "vehicles": [
+        "'12 Cooper Coupe"
+      ],
+      "verifiedEntryCount": 1,
+      "verifiedProfile": null
+    },
+    {
+      "key": "cody_collins",
+      "name": "Cody Collins",
+      "status": "active_event_driver",
+      "classes": [
+        "Drift"
+      ],
+      "series": [
+        "DRIFT"
+      ],
+      "carNumbers": [],
+      "vehicles": [
+        "'08 M3"
+      ],
+      "verifiedEntryCount": 1,
+      "verifiedProfile": null
+    },
+    {
+      "key": "connor_o_mara",
+      "name": "Connor O'Mara",
+      "status": "active_event_driver",
+      "classes": [
+        "Falken Club TR"
+      ],
+      "series": [
+        "TrackBattle"
+      ],
+      "carNumbers": [
+        "432"
+      ],
+      "vehicles": [
+        "'04 R32"
+      ],
+      "verifiedEntryCount": 1,
+      "verifiedProfile": null
+    },
+    {
+      "key": "dai_nguyen",
+      "name": "Dai Nguyen",
+      "status": "active_event_driver",
+      "classes": [
+        "GLTC"
+      ],
+      "series": [
+        "GLTC"
+      ],
+      "carNumbers": [
+        "888"
+      ],
+      "vehicles": [
+        "'13 BRZ"
+      ],
+      "verifiedEntryCount": 1,
+      "verifiedProfile": null
+    },
+    {
+      "key": "dai_yoshihara",
+      "name": "Dai Yoshihara",
+      "status": "active_event_driver",
+      "classes": [
+        "Street Mod"
+      ],
+      "series": [
+        "TrackBattle"
+      ],
+      "carNumbers": [
+        "861"
+      ],
+      "vehicles": [
+        "'05 WRX STI"
+      ],
+      "verifiedEntryCount": 1,
+      "verifiedProfile": null
+    },
+    {
+      "key": "daley_pagano",
+      "name": "Daley Pagano",
+      "status": "active_event_driver",
+      "classes": [
+        "Street GT"
+      ],
+      "series": [
+        "TrackBattle"
+      ],
+      "carNumbers": [
+        "527"
+      ],
+      "vehicles": [
+        "'21 M4 Coupe"
+      ],
+      "verifiedEntryCount": 1,
+      "verifiedProfile": null
+    },
+    {
+      "key": "dalton_stroup",
+      "name": "Dalton Stroup",
+      "status": "active_event_driver",
+      "classes": [
+        "Drift"
+      ],
+      "series": [
+        "DRIFT"
+      ],
+      "carNumbers": [],
+      "vehicles": [
+        "'88 Mustang"
+      ],
+      "verifiedEntryCount": 1,
+      "verifiedProfile": null
+    },
+    {
+      "key": "daniel_persing",
+      "name": "Daniel Persing",
+      "status": "active_event_driver",
+      "classes": [
+        "Falken Club TR"
+      ],
+      "series": [
+        "TrackBattle"
+      ],
+      "carNumbers": [
+        "230"
+      ],
+      "vehicles": [
+        "'23 BRZ"
+      ],
+      "verifiedEntryCount": 1,
+      "verifiedProfile": null
+    },
+    {
+      "key": "dany_neville",
+      "name": "Dany Neville",
+      "status": "active_event_driver",
+      "classes": [
+        "Drift"
+      ],
+      "series": [
+        "DRIFT"
+      ],
+      "carNumbers": [],
+      "vehicles": [],
+      "verifiedEntryCount": 1,
+      "verifiedProfile": null
+    },
+    {
+      "key": "dariush_lotfi",
+      "name": "Dariush Lotfi",
+      "status": "active_event_driver",
+      "classes": [
+        "Falken Club TR"
+      ],
+      "series": [
+        "TrackBattle"
+      ],
+      "carNumbers": [
+        "241"
+      ],
+      "vehicles": [
+        "'96 MX-5 Miata"
+      ],
+      "verifiedEntryCount": 1,
+      "verifiedProfile": null
+    },
+    {
+      "key": "dave_laps",
+      "name": "Dave Laps",
+      "status": "active_event_driver",
+      "classes": [
+        "Street"
+      ],
+      "series": [
+        "TrackBattle"
+      ],
+      "carNumbers": [
+        "823"
+      ],
+      "vehicles": [
+        "'09 Cobalt SS Coupe"
+      ],
+      "verifiedEntryCount": 1,
+      "verifiedProfile": null
+    },
+    {
+      "key": "david_best",
+      "name": "David Best",
+      "status": "active_event_driver",
+      "classes": [
+        "Falken Club SC"
+      ],
+      "series": [
+        "TrackBattle"
+      ],
+      "carNumbers": [
+        "134"
+      ],
+      "vehicles": [
+        "'12 Fit"
+      ],
+      "verifiedEntryCount": 1,
+      "verifiedProfile": null
+    },
+    {
+      "key": "david_pereira",
+      "name": "David Pereira",
+      "status": "active_event_driver",
+      "classes": [
+        "Rush SR"
+      ],
+      "series": [
+        "RUSH SR"
+      ],
+      "carNumbers": [
+        "100"
+      ],
+      "vehicles": [
+        "'25 SR"
+      ],
+      "verifiedEntryCount": 1,
+      "verifiedProfile": null
+    },
+    {
+      "key": "dennis_romero",
+      "name": "Dennis Romero",
+      "status": "active_event_driver",
+      "classes": [
+        "Rush SR"
+      ],
+      "series": [
+        "RUSH SR"
+      ],
+      "carNumbers": [
+        "43"
+      ],
+      "vehicles": [
+        "'24 SR"
+      ],
+      "verifiedEntryCount": 1,
+      "verifiedProfile": null
+    },
+    {
+      "key": "dewey_dewitt",
+      "name": "Dewey DeWitt",
+      "status": "active_event_driver",
+      "classes": [
+        "Street Mod"
+      ],
+      "series": [
+        "TrackBattle"
+      ],
+      "carNumbers": [
+        "70"
+      ],
+      "vehicles": [
+        "'95 Impreza"
+      ],
+      "verifiedEntryCount": 1,
+      "verifiedProfile": null
+    },
+    {
+      "key": "doltyn_snedden",
+      "name": "Doltyn Snedden",
+      "status": "active_event_driver",
+      "classes": [
+        "Rush SR"
+      ],
+      "series": [
+        "RUSH SR"
+      ],
+      "carNumbers": [
+        "881"
+      ],
+      "vehicles": [
+        "'22 SR"
+      ],
+      "verifiedEntryCount": 1,
+      "verifiedProfile": null
+    },
+    {
+      "key": "donald_lui",
+      "name": "Donald Lui",
+      "status": "active_event_driver",
+      "classes": [
+        "GLTC"
+      ],
+      "series": [
+        "GLTC"
+      ],
+      "carNumbers": [
+        "898"
+      ],
+      "vehicles": [
+        "'15 BRZ"
+      ],
+      "verifiedEntryCount": 1,
+      "verifiedProfile": null
+    },
+    {
+      "key": "eric_john_bumanlag",
+      "name": "Eric John Bumanlag",
+      "status": "active_event_driver",
+      "classes": [
+        "Falken Club TR"
+      ],
+      "series": [
+        "TrackBattle"
+      ],
+      "carNumbers": [
+        "47"
+      ],
+      "vehicles": [
+        "'25 Civic SI 4DR"
+      ],
+      "verifiedEntryCount": 1,
+      "verifiedProfile": null
+    },
+    {
+      "key": "eric_knerr",
+      "name": "Eric Knerr",
+      "status": "active_event_driver",
+      "classes": [
+        "Falken Club TR"
+      ],
+      "series": [
+        "TrackBattle"
+      ],
+      "carNumbers": [
+        "243"
+      ],
+      "vehicles": [
+        "'00 Civic 4DR"
+      ],
+      "verifiedEntryCount": 1,
+      "verifiedProfile": null
+    },
+    {
+      "key": "eric_kutil",
+      "name": "Eric Kutil",
+      "status": "active_event_driver",
+      "classes": [
+        "GLTC"
+      ],
+      "series": [
+        "GLTC"
+      ],
+      "carNumbers": [
+        "82"
+      ],
+      "vehicles": [
+        "'92 Civic 4DR"
+      ],
+      "verifiedEntryCount": 1,
+      "verifiedProfile": null
+    },
+    {
+      "key": "eric_magnussen",
+      "name": "Eric Magnussen",
+      "status": "active_event_driver",
+      "classes": [
+        "GLTC"
+      ],
+      "series": [
+        "GLTC"
+      ],
+      "carNumbers": [
+        "3"
+      ],
+      "vehicles": [
+        "'01 M3"
+      ],
+      "verifiedEntryCount": 4,
+      "verifiedProfile": null
+    },
+    {
+      "key": "ernest_wright",
+      "name": "Ernest Wright",
+      "status": "active_event_driver",
+      "classes": [
+        "Drift"
+      ],
+      "series": [
+        "DRIFT"
+      ],
+      "carNumbers": [],
+      "vehicles": [
+        "'92 240SX"
+      ],
+      "verifiedEntryCount": 1,
+      "verifiedProfile": null
+    },
+    {
+      "key": "ernestas_puzelis",
+      "name": "Ernestas Puzelis",
+      "status": "active_event_driver",
+      "classes": [
+        "Unlimited"
+      ],
+      "series": [
+        "TrackBattle"
+      ],
+      "carNumbers": [
+        "338"
+      ],
+      "vehicles": [
+        "'18 911 GT3"
+      ],
+      "verifiedEntryCount": 1,
+      "verifiedProfile": null
+    },
+    {
+      "key": "ethan_hardesty",
+      "name": "Ethan Hardesty",
+      "status": "active_event_driver",
+      "classes": [
+        "Rush SR"
+      ],
+      "series": [
+        "RUSH SR"
+      ],
+      "carNumbers": [
+        "115"
+      ],
+      "vehicles": [
+        "'24 SR"
+      ],
+      "verifiedEntryCount": 1,
+      "verifiedProfile": null
+    },
+    {
+      "key": "evan_mclaren",
+      "name": "Evan McLaren",
+      "status": "active_event_driver",
+      "classes": [
+        "Falken Club TR",
+        "Track Mod"
+      ],
+      "series": [
+        "TrackBattle"
+      ],
+      "carNumbers": [
+        "487",
+        "514"
+      ],
+      "vehicles": [
+        "'01 Integra",
+        "'93 Civic"
+      ],
+      "verifiedEntryCount": 2,
+      "verifiedProfile": null
+    },
+    {
+      "key": "evin_degirmencioglu",
+      "name": "Evin Degirmencioglu",
+      "status": "active_event_driver",
+      "classes": [
+        "Street GT"
+      ],
+      "series": [
+        "TrackBattle"
+      ],
+      "carNumbers": [
+        "949"
+      ],
+      "vehicles": [
+        "'19 Shelby GT350 Mustang"
+      ],
+      "verifiedEntryCount": 1,
+      "verifiedProfile": null
+    },
+    {
+      "key": "faruk_kugay",
+      "name": "Faruk Kugay",
+      "status": "active_event_driver",
+      "classes": [
+        "Drift"
+      ],
+      "series": [
+        "DRIFT"
+      ],
+      "carNumbers": [],
+      "vehicles": [],
+      "verifiedEntryCount": 1,
+      "verifiedProfile": null
+    },
+    {
+      "key": "foster_johnson",
+      "name": "Foster Johnson",
+      "status": "active_event_driver",
+      "classes": [
+        "Street"
+      ],
+      "series": [
+        "TrackBattle"
+      ],
+      "carNumbers": [
+        "41"
+      ],
+      "vehicles": [
+        "'17 Civic Type R"
+      ],
+      "verifiedEntryCount": 1,
+      "verifiedProfile": null
+    },
+    {
+      "key": "freddy_de_la_rosa",
+      "name": "Freddy De La Rosa",
+      "status": "active_event_driver",
+      "classes": [
+        "Falken Club TR"
+      ],
+      "series": [
+        "TrackBattle"
+      ],
+      "carNumbers": [
+        "30"
+      ],
+      "vehicles": [
+        "'02 S2000"
+      ],
+      "verifiedEntryCount": 1,
+      "verifiedProfile": null
+    },
+    {
+      "key": "garrett_gloceri",
+      "name": "Garrett Gloceri",
+      "status": "active_event_driver",
+      "classes": [
+        "Falken Club TR"
+      ],
+      "series": [
+        "TrackBattle"
+      ],
+      "carNumbers": [
+        "238"
+      ],
+      "vehicles": [
+        "'04 RX-8"
+      ],
+      "verifiedEntryCount": 1,
+      "verifiedProfile": null
+    },
+    {
+      "key": "geoff_donati",
+      "name": "Geoff Donati",
+      "status": "active_event_driver",
+      "classes": [
+        "GLTC"
+      ],
+      "series": [
+        "GLTC"
+      ],
+      "carNumbers": [
+        "624"
+      ],
+      "vehicles": [
+        "'17 86"
+      ],
+      "verifiedEntryCount": 1,
+      "verifiedProfile": null
+    },
+    {
+      "key": "graham_gaylord",
+      "name": "Graham Gaylord",
+      "status": "active_event_driver",
+      "classes": [
+        "Street Mod"
+      ],
+      "series": [
+        "TrackBattle"
+      ],
+      "carNumbers": [
+        "11"
+      ],
+      "vehicles": [
+        "'11 WRX STI"
+      ],
+      "verifiedEntryCount": 1,
+      "verifiedProfile": null
+    },
+    {
+      "key": "grant_bourne",
+      "name": "Grant Bourne",
+      "status": "active_event_driver",
+      "classes": [
+        "Rush SR"
+      ],
+      "series": [
+        "RUSH SR"
+      ],
+      "carNumbers": [
+        "127"
+      ],
+      "vehicles": [
+        "'25 SR"
+      ],
+      "verifiedEntryCount": 1,
+      "verifiedProfile": null
+    },
+    {
+      "key": "hans_horpedahl",
+      "name": "Hans Horpedahl",
+      "status": "active_event_driver",
+      "classes": [
+        "GLGT"
+      ],
+      "series": [
+        "GLGT"
+      ],
+      "carNumbers": [
+        "77"
+      ],
+      "vehicles": [
+        "'01 Corvette Z06"
+      ],
+      "verifiedEntryCount": 1,
+      "verifiedProfile": null
+    },
+    {
+      "key": "heath_pomerantz",
+      "name": "Heath Pomerantz",
+      "status": "active_event_driver",
+      "classes": [
+        "Rush SR"
+      ],
+      "series": [
+        "RUSH SR"
+      ],
+      "carNumbers": [
+        "511"
+      ],
+      "vehicles": [
+        "'24 SR"
+      ],
+      "verifiedEntryCount": 1,
+      "verifiedProfile": null
+    },
+    {
+      "key": "hertrech_eugene",
+      "name": "Hertrech Eugene",
+      "status": "active_event_driver",
+      "classes": [
+        "Drift"
+      ],
+      "series": [
+        "DRIFT"
+      ],
+      "carNumbers": [],
+      "vehicles": [],
+      "verifiedEntryCount": 1,
+      "verifiedProfile": null
+    },
+    {
+      "key": "ian_stone",
+      "name": "Ian Stone",
+      "status": "active_event_driver",
+      "classes": [
+        "Falken Club SC"
+      ],
+      "series": [
+        "TrackBattle"
+      ],
+      "carNumbers": [
+        "3"
+      ],
+      "vehicles": [
+        "'09 Fit"
+      ],
+      "verifiedEntryCount": 1,
+      "verifiedProfile": null
+    },
+    {
+      "key": "isaac_nowlin",
+      "name": "Isaac Nowlin",
+      "status": "active_event_driver",
+      "classes": [
+        "Rush SR"
+      ],
+      "series": [
+        "RUSH SR"
+      ],
+      "carNumbers": [
+        "46"
+      ],
+      "vehicles": [
+        "'26 SR"
+      ],
+      "verifiedEntryCount": 1,
+      "verifiedProfile": null
+    },
+    {
+      "key": "jackie_ding",
+      "name": "Jackie Ding",
+      "status": "active_event_driver",
+      "classes": [
+        "Track Mod"
+      ],
+      "series": [
+        "TrackBattle"
+      ],
+      "carNumbers": [
+        "442"
+      ],
+      "vehicles": [
+        "'70 Cutlass"
+      ],
+      "verifiedEntryCount": 1,
+      "verifiedProfile": null
+    },
+    {
+      "key": "jake_ertel",
+      "name": "Jake Ertel",
+      "status": "active_event_driver",
+      "classes": [
+        "Unlimited"
+      ],
+      "series": [
+        "TrackBattle"
+      ],
+      "carNumbers": [
+        "379"
+      ],
+      "vehicles": [
+        "'07 Corvette Z06"
+      ],
+      "verifiedEntryCount": 1,
+      "verifiedProfile": null
+    },
+    {
+      "key": "jake_sanders",
+      "name": "Jake Sanders",
+      "status": "active_event_driver",
+      "classes": [
+        "Rush SR"
+      ],
+      "series": [
+        "RUSH SR"
+      ],
+      "carNumbers": [
+        "77"
+      ],
+      "vehicles": [
+        "'24 SR"
+      ],
+      "verifiedEntryCount": 1,
+      "verifiedProfile": null
+    },
+    {
+      "key": "james_french",
+      "name": "James French",
+      "status": "active_event_driver",
+      "classes": [
+        "Rush SR"
+      ],
+      "series": [
+        "RUSH SR"
+      ],
+      "carNumbers": [
+        "191"
+      ],
+      "vehicles": [
+        "'25 SR"
+      ],
+      "verifiedEntryCount": 3,
+      "verifiedProfile": null
+    },
+    {
+      "key": "james_houghton",
+      "name": "James Houghton",
+      "status": "active_event_driver",
+      "classes": [
+        "GLGT"
+      ],
+      "series": [
+        "GLGT"
+      ],
+      "carNumbers": [
+        "41"
+      ],
+      "vehicles": [
+        "'18 Civic Type R TCR"
+      ],
+      "verifiedEntryCount": 1,
+      "verifiedProfile": null
+    },
+    {
+      "key": "jason_davidson",
+      "name": "Jason Davidson",
+      "status": "active_event_driver",
+      "classes": [
+        "Falken Club SC"
+      ],
+      "series": [
+        "TrackBattle"
+      ],
+      "carNumbers": [
+        "122"
+      ],
+      "vehicles": [
+        "'10 Fit"
+      ],
+      "verifiedEntryCount": 1,
+      "verifiedProfile": null
+    },
+    {
+      "key": "jason_mulderig",
+      "name": "Jason Mulderig",
+      "status": "active_event_driver",
+      "classes": [
+        "Falken Club TR"
+      ],
+      "series": [
+        "TrackBattle"
+      ],
+      "carNumbers": [
+        "218"
+      ],
+      "vehicles": [
+        "'00 S2000"
+      ],
+      "verifiedEntryCount": 1,
+      "verifiedProfile": null
+    },
+    {
+      "key": "jason_oehler",
+      "name": "Jason Oehler",
+      "status": "active_event_driver",
+      "classes": [
+        "Rush SR"
+      ],
+      "series": [
+        "RUSH SR"
+      ],
+      "carNumbers": [
+        "74"
+      ],
+      "vehicles": [
+        "'26 SR"
+      ],
+      "verifiedEntryCount": 1,
+      "verifiedProfile": null
+    },
+    {
+      "key": "jaylan_battley",
+      "name": "Jaylan Battley",
+      "status": "active_event_driver",
+      "classes": [
+        "Rush SR"
+      ],
+      "series": [
+        "RUSH SR"
+      ],
+      "carNumbers": [
+        "88"
+      ],
+      "vehicles": [
+        "'25 SR"
+      ],
+      "verifiedEntryCount": 1,
+      "verifiedProfile": null
+    },
+    {
+      "key": "jeff_daniels",
+      "name": "Jeff Daniels",
+      "status": "active_event_driver",
+      "classes": [
+        "Street Mod"
+      ],
+      "series": [
+        "TrackBattle"
+      ],
+      "carNumbers": [
+        "401"
+      ],
+      "vehicles": [
+        "'07 Outback Wagon AWD"
+      ],
+      "verifiedEntryCount": 1,
+      "verifiedProfile": null
+    },
+    {
+      "key": "jeff_hardesty",
+      "name": "Jeff Hardesty",
+      "status": "active_event_driver",
+      "classes": [
+        "Rush SR"
+      ],
+      "series": [
+        "RUSH SR"
+      ],
+      "carNumbers": [
+        "128"
+      ],
+      "vehicles": [
+        "'23 SR"
+      ],
+      "verifiedEntryCount": 1,
+      "verifiedProfile": null
+    },
+    {
+      "key": "jeff_wasilko",
+      "name": "Jeff Wasilko",
+      "status": "active_event_driver",
+      "classes": [
+        "GLTC"
+      ],
+      "series": [
+        "GLTC"
+      ],
+      "carNumbers": [
+        "8"
+      ],
+      "vehicles": [
+        "'90 MX-5 Miata"
+      ],
+      "verifiedEntryCount": 1,
+      "verifiedProfile": null
+    },
+    {
+      "key": "jeffrey_gordon",
+      "name": "Jeffrey Gordon",
+      "status": "active_event_driver",
+      "classes": [
+        "Rush SR"
+      ],
+      "series": [
+        "RUSH SR"
+      ],
+      "carNumbers": [
+        "54"
+      ],
+      "vehicles": [
+        "'26 SR"
+      ],
+      "verifiedEntryCount": 1,
+      "verifiedProfile": null
+    },
+    {
+      "key": "jeffrey_oliveira",
+      "name": "Jeffrey Oliveira",
+      "status": "active_event_driver",
+      "classes": [
+        "GLTC"
+      ],
+      "series": [
+        "GLTC"
+      ],
+      "carNumbers": [
+        "21"
+      ],
+      "vehicles": [
+        "'05 RX-8"
+      ],
+      "verifiedEntryCount": 1,
+      "verifiedProfile": null
+    },
+    {
+      "key": "jerami_bailey",
+      "name": "Jerami Bailey",
+      "status": "active_event_driver",
+      "classes": [
+        "Falken Club TR"
+      ],
+      "series": [
+        "TrackBattle"
+      ],
+      "carNumbers": [
+        "13"
+      ],
+      "vehicles": [
+        "'13 FR-S"
+      ],
+      "verifiedEntryCount": 1,
+      "verifiedProfile": null
+    },
+    {
+      "key": "jeremy_lowder",
+      "name": "Jeremy Lowder",
+      "status": "active_event_driver",
+      "classes": [
+        "Unlimited"
+      ],
+      "series": [
+        "TrackBattle"
+      ],
+      "carNumbers": [
+        "125"
+      ],
+      "vehicles": [
+        "'19 Camaro"
+      ],
+      "verifiedEntryCount": 1,
+      "verifiedProfile": null
+    },
+    {
+      "key": "jerry_rocha",
+      "name": "Jerry Rocha",
+      "status": "active_event_driver",
+      "classes": [
+        "Drift"
+      ],
+      "series": [
+        "DRIFT"
+      ],
+      "carNumbers": [],
+      "vehicles": [
+        "'17 BRZ"
+      ],
+      "verifiedEntryCount": 1,
+      "verifiedProfile": null
+    },
+    {
+      "key": "jesse_echanique",
+      "name": "Jesse Echanique",
+      "status": "active_event_driver",
+      "classes": [
+        "Track Mod"
+      ],
+      "series": [
+        "TrackBattle"
+      ],
+      "carNumbers": [
+        "220"
+      ],
+      "vehicles": [
+        "'98 Eclipse"
+      ],
+      "verifiedEntryCount": 1,
+      "verifiedProfile": null
+    },
+    {
+      "key": "jesse_myhre",
+      "name": "Jesse Myhre",
+      "status": "active_event_driver",
+      "classes": [
+        "Street Mod"
+      ],
+      "series": [
+        "TrackBattle"
+      ],
+      "carNumbers": [
+        "612"
+      ],
+      "vehicles": [
+        "'01 Impreza"
+      ],
+      "verifiedEntryCount": 1,
+      "verifiedProfile": null
+    },
+    {
+      "key": "jim_senatro",
+      "name": "Jim Senatro",
+      "status": "active_event_driver",
+      "classes": [
+        "Street GT"
+      ],
+      "series": [
+        "TrackBattle"
+      ],
+      "carNumbers": [
+        "81"
+      ],
+      "vehicles": [
+        "'23 Camaro"
+      ],
+      "verifiedEntryCount": 1,
+      "verifiedProfile": null
+    },
+    {
+      "key": "jimmy_jones",
+      "name": "Jimmy Jones",
+      "status": "active_event_driver",
+      "classes": [
+        "Street"
+      ],
+      "series": [
+        "TrackBattle"
+      ],
+      "carNumbers": [
+        "205"
+      ],
+      "vehicles": [
+        "'02 WRX"
+      ],
+      "verifiedEntryCount": 1,
+      "verifiedProfile": null
+    },
+    {
+      "key": "jimmy_oakes",
+      "name": "Jimmy Oakes",
+      "status": "active_event_driver",
+      "classes": [
+        "Drift"
+      ],
+      "series": [
+        "DRIFT"
+      ],
+      "carNumbers": [],
+      "vehicles": [],
+      "verifiedEntryCount": 1,
+      "verifiedProfile": null
+    },
+    {
+      "key": "joel_morrison",
+      "name": "Joel Morrison",
+      "status": "active_event_driver",
+      "classes": [
+        "GLTC"
+      ],
+      "series": [
+        "GLTC"
+      ],
+      "carNumbers": [
+        "71"
+      ],
+      "vehicles": [
+        "'05 S2000"
+      ],
+      "verifiedEntryCount": 1,
+      "verifiedProfile": null
+    },
+    {
+      "key": "john_canfield",
+      "name": "John Canfield",
+      "status": "active_event_driver",
+      "classes": [
+        "Rush SR"
+      ],
+      "series": [
+        "RUSH SR"
+      ],
+      "carNumbers": [
+        "271"
+      ],
+      "vehicles": [
+        "'25 SR"
+      ],
+      "verifiedEntryCount": 1,
+      "verifiedProfile": null
+    },
+    {
+      "key": "john_khargie",
+      "name": "John Khargie",
+      "status": "active_event_driver",
+      "classes": [
+        "Rush SR"
+      ],
+      "series": [
+        "RUSH SR"
+      ],
+      "carNumbers": [
+        "999"
+      ],
+      "vehicles": [
+        "'25 SR"
+      ],
+      "verifiedEntryCount": 1,
+      "verifiedProfile": null
+    },
+    {
+      "key": "john_laughlin",
+      "name": "John Laughlin",
+      "status": "active_event_driver",
+      "classes": [
+        "Falken Club SC"
+      ],
+      "series": [
+        "TrackBattle"
+      ],
+      "carNumbers": [
+        "571"
+      ],
+      "vehicles": [
+        "'04 Cooper"
+      ],
+      "verifiedEntryCount": 1,
+      "verifiedProfile": null
+    },
+    {
+      "key": "john_veloso",
+      "name": "John Veloso",
+      "status": "active_event_driver",
+      "classes": [
+        "Unlimited"
+      ],
+      "series": [
+        "TrackBattle"
+      ],
+      "carNumbers": [
+        "196"
+      ],
+      "vehicles": [
+        "'19 NSX GT3 EVO"
+      ],
+      "verifiedEntryCount": 1,
+      "verifiedProfile": null
+    },
+    {
+      "key": "john_weisberg",
+      "name": "John Weisberg",
+      "status": "active_event_driver",
+      "classes": [
+        "Rush SR"
+      ],
+      "series": [
+        "RUSH SR"
+      ],
+      "carNumbers": [
+        "40"
+      ],
+      "vehicles": [
+        "'26 SR"
+      ],
+      "verifiedEntryCount": 1,
+      "verifiedProfile": null
+    },
+    {
+      "key": "john_wilson",
+      "name": "John Wilson",
+      "status": "active_event_driver",
+      "classes": [
+        "Rush SR"
+      ],
+      "series": [
+        "RUSH SR"
+      ],
+      "carNumbers": [],
+      "vehicles": [
+        "'26 SR"
+      ],
+      "verifiedEntryCount": 1,
+      "verifiedProfile": null
+    },
+    {
+      "key": "jonathan_denk",
+      "name": "Jonathan Denk",
+      "status": "active_event_driver",
+      "classes": [
+        "Street Mod"
+      ],
+      "series": [
+        "TrackBattle"
+      ],
+      "carNumbers": [
+        "67"
+      ],
+      "vehicles": [
+        "'00 Civic 2DR"
+      ],
+      "verifiedEntryCount": 1,
+      "verifiedProfile": null
+    },
+    {
+      "key": "jordan_wiseley",
+      "name": "Jordan Wiseley",
+      "status": "active_event_driver",
+      "classes": [
+        "GLGT"
+      ],
+      "series": [
+        "GLGT"
+      ],
+      "carNumbers": [
+        "7"
+      ],
+      "vehicles": [
+        "'19 Veloster N"
+      ],
+      "verifiedEntryCount": 1,
+      "verifiedProfile": {
+        "summary": "Jordan Wiseley has evolved beyond reality television into a crossover influencer spanning motorsports, fitness, adventure, and entertainment. Unlike traditional racing influencers whose audiences are primarily motorsports fans, Wiseley reaches a broader consumer demographic through MTV's The Challenge while building credibility as a professional race driver.",
+        "teams": [
+          "Deily Motorsports",
+          "Hyundai"
+        ],
+        "socialProfiles": {
+          "facebook": "https://www.facebook.com/p/Jordan-Wiseley-100040925202396/",
+          "instagram": "https://www.instagram.com/jordan_wiseley/",
+          "youtube": "https://www.youtube.com/@jordan_wiseley"
+        },
+        "socialHandles": {
+          "instagram": "@jordan_wiseley",
+          "youtube": "@jordan_wiseley"
+        },
+        "audienceMetrics": {
+          "age_range": "Primarily 18-44",
+          "estimated_known_reach": 442500,
+          "instagram_followers": 434000,
+          "instagram_followers_report_estimate": 422000,
+          "known_social_platforms": 3,
+          "posting_frequency": "Approximately 1-2 posts/week",
+          "primary_audience": "United States",
+          "reach_note": "Prior report estimated ~422K Instagram followers; latest indexed result showed ~434K.",
+          "youtube_subscribers": 8500,
+          "youtube_videos": 61
+        },
+        "performanceHighlights": [
+          {
+            "label": "GRIDLIFE relevance",
+            "value": "Appears in GRIDLIFE Driver's Meeting content as a GLGT Hyundai Veloster N driver."
+          },
+          {
+            "label": "Hyundai / Deily Motorsports",
+            "value": "Listed for the No. 70 Hyundai Elantra N TCR with Jacob Deily for Deily Motorsports."
+          },
+          {
+            "label": "IMSA / TCR profile",
+            "value": "TCR World Ranking lists Jordan Wiseley with current and best ranking history."
+          },
+          {
+            "label": "Broadcast mention",
+            "value": "Detected in announcer transcript around 1:02:47 in the Circuit Legends broadcast."
+          }
+        ],
+        "sponsorValue": {
+          "best_use": "Sponsor pitch, driver media kit, arrive-and-drive credibility, GRIDLIFE demo storytelling, Hyundai/GLGT activation.",
+          "estimated_campaign_range": "$15,000-75,000+ depending on exclusivity, usage rights, campaign length, and deliverables.",
+          "positioning": "Crossover driver/influencer with mainstream recognition and legitimate racing credibility.",
+          "risk_note": "Audience is not exclusively racing-focused; sponsor value depends on matching motorsports, lifestyle, fitness, and entertainment brands."
+        },
+        "influencerReport": {
+          "audience_demographics": [
+            {
+              "segment": "Motorsports enthusiasts",
+              "share": "45%"
+            },
+            {
+              "segment": "Reality TV fans",
+              "share": "35%"
+            },
+            {
+              "segment": "Fitness/outdoor lifestyle followers",
+              "share": "20%"
+            }
+          ],
+          "audience_overview": [
+            {
+              "estimate": "~422,000 report estimate / ~434,000 latest indexed",
+              "metric": "Instagram Followers"
+            },
+            {
+              "estimate": "Racing, fitness, travel, lifestyle, behind-the-scenes",
+              "metric": "Content Focus"
+            },
+            {
+              "estimate": "United States",
+              "metric": "Primary Audience"
+            },
+            {
+              "estimate": "Primarily 18-44",
+              "metric": "Age Range"
+            },
+            {
+              "estimate": "Approximately 1-2 posts/week",
+              "metric": "Posting Frequency"
+            }
+          ],
+          "brand_fit_scores": [
+            {
+              "industry": "Automotive",
+              "rating": 5
+            },
+            {
+              "industry": "Tires",
+              "rating": 5
+            },
+            {
+              "industry": "Performance Parts",
+              "rating": 5
+            },
+            {
+              "industry": "Apparel",
+              "rating": 4
+            },
+            {
+              "industry": "Energy Drinks",
+              "rating": 5
+            },
+            {
+              "industry": "Fitness",
+              "rating": 5
+            },
+            {
+              "industry": "Outdoor Gear",
+              "rating": 4
+            },
+            {
+              "industry": "Technology",
+              "rating": 4
+            },
+            {
+              "industry": "Financial Services",
+              "rating": 3
+            },
+            {
+              "industry": "Luxury Brands",
+              "rating": 4
+            }
+          ],
+          "competitive_position": {
+            "advantages": [
+              "Reality TV fame broadens reach.",
+              "Professional racing adds authenticity.",
+              "Athletic image appeals beyond motorsports.",
+              "Comfortable on camera and in interviews."
+            ],
+            "challenges": [
+              "Smaller racing-specific audience than top NASCAR or Formula 1 personalities.",
+              "Less technical racing content than some dedicated motorsports creators."
+            ]
+          },
+          "content_strengths": [
+            "Race weekend content",
+            "Driver POV",
+            "Fitness routines",
+            "Training videos",
+            "Travel",
+            "Lifestyle photography",
+            "Humor",
+            "Behind-the-scenes content",
+            "Personal storytelling"
+          ],
+          "executive_summary": [
+            "Jordan Wiseley has evolved beyond reality television into a unique crossover influencer spanning motorsports, fitness, adventure, and entertainment.",
+            "For brands targeting 18-44 year-old active lifestyle consumers, Jordan combines mainstream entertainment recognition, professional motorsports credentials, fitness lifestyle, personality-driven content, and high brand safety."
+          ],
+          "influence_score": [
+            {
+              "category": "Reach",
+              "score": "8.5/10"
+            },
+            {
+              "category": "Engagement",
+              "score": "7.5/10"
+            },
+            {
+              "category": "Authenticity",
+              "score": "9.5/10"
+            },
+            {
+              "category": "Brand Safety",
+              "score": "9.5/10"
+            },
+            {
+              "category": "Motorsports Credibility",
+              "score": "8.5/10"
+            },
+            {
+              "category": "Entertainment Value",
+              "score": "10/10"
+            },
+            {
+              "category": "Commercial Value",
+              "score": "9/10"
+            }
+          ],
+          "marketing_value_for_race_team": [
+            "Sponsor activation",
+            "Social media amplification",
+            "Driver appearances",
+            "VIP hospitality engagement",
+            "Event hosting",
+            "Video content creation",
+            "Product launches",
+            "Team storytelling"
+          ],
+          "overall_rating": "8.9/10",
+          "relevance_to_business": "For the planned Gridlife/Zenith arrive-and-drive program, Jordan represents the type of driver/influencer who can deliver value beyond lap times. A driver with a similar profile can generate sponsor impressions, create event-weekend content, and attract fans from outside the traditional racing audience.",
+          "sponsored_post_rates": [
+            {
+              "deliverable": "Instagram Story",
+              "estimated_market_rate": "$750-1,500"
+            },
+            {
+              "deliverable": "Instagram Reel",
+              "estimated_market_rate": "$2,500-6,000"
+            },
+            {
+              "deliverable": "Instagram Carousel",
+              "estimated_market_rate": "$2,000-5,000"
+            },
+            {
+              "deliverable": "Event Appearance",
+              "estimated_market_rate": "$5,000-15,000/day"
+            },
+            {
+              "deliverable": "Full Brand Campaign",
+              "estimated_market_rate": "$15,000-75,000+"
+            }
+          ],
+          "strong_engagement_sources": [
+            "IMSA fans",
+            "Cadillac racing fans",
+            "Adventure athletes",
+            "Gym community",
+            "MTV audience",
+            "Automotive enthusiasts"
+          ],
+          "swot_analysis": {
+            "opportunities": [
+              "Automotive OEM partnerships",
+              "Fitness and wellness brands",
+              "Racing schools",
+              "Streaming and YouTube expansion",
+              "Motorsport documentaries",
+              "Lifestyle apparel collaborations"
+            ],
+            "strengths": [
+              "Established personal brand",
+              "Broad entertainment audience",
+              "Professional racing credentials",
+              "Strong on-camera presence",
+              "Authentic personality"
+            ],
+            "threats": [
+              "Highly competitive influencer market",
+              "Platform algorithm changes",
+              "Balancing entertainment and racing identities"
+            ],
+            "weaknesses": [
+              "Audience not exclusively racing-focused",
+              "Engagement varies depending on racing schedule"
+            ]
+          },
+          "title": "Influencer Report: Jordan Wiseley (2026)"
+        },
+        "evidenceLinks": [
+          {
+            "title": "GRIDLIFE Driver's Meeting - Jordan Wiseley",
+            "type": "gridlife_reference",
+            "url": "https://www.youtube.com/watch?v=qTNrIvb-GiA"
+          },
+          {
+            "title": "Hyundai 2024 racing program lists Jacob Deily and Jordan Wiseley in No. 70",
+            "type": "race_reference",
+            "url": "https://www.prnewswire.com/news-releases/hyundai-announces-2024-racing-program-302038786.html"
+          }
+        ],
+        "verifiedAt": "2026-08-29T19:58:50.936588"
+      }
+    },
+    {
+      "key": "jordon_musser",
+      "name": "Jordon Musser",
+      "status": "active_event_driver",
+      "classes": [
+        "Rush SR"
+      ],
+      "series": [
+        "RUSH SR"
+      ],
+      "carNumbers": [
+        "106"
+      ],
+      "vehicles": [
+        "'26 SR"
+      ],
+      "verifiedEntryCount": 1,
+      "verifiedProfile": null
+    },
+    {
+      "key": "juan_johnson",
+      "name": "Juan Johnson",
+      "status": "active_event_driver",
+      "classes": [
+        "Falken Club TR"
+      ],
+      "series": [
+        "TrackBattle"
+      ],
+      "carNumbers": [
+        "142"
+      ],
+      "vehicles": [
+        "'02 S2000"
+      ],
+      "verifiedEntryCount": 1,
+      "verifiedProfile": null
+    },
+    {
+      "key": "justin_kelly",
+      "name": "Justin Kelly",
+      "status": "active_event_driver",
+      "classes": [
+        "Rush SR"
+      ],
+      "series": [
+        "RUSH SR"
+      ],
+      "carNumbers": [
+        "86"
+      ],
+      "vehicles": [
+        "'24 SR"
+      ],
+      "verifiedEntryCount": 1,
+      "verifiedProfile": null
+    },
+    {
+      "key": "kal_fortner",
+      "name": "Kal Fortner",
+      "status": "active_event_driver",
+      "classes": [
+        "Street Mod"
+      ],
+      "series": [
+        "TrackBattle"
+      ],
+      "carNumbers": [
+        "14"
+      ],
+      "vehicles": [
+        "'16 AMG GT S"
+      ],
+      "verifiedEntryCount": 1,
+      "verifiedProfile": null
+    },
+    {
+      "key": "kevin_horn",
+      "name": "Kevin Horn",
+      "status": "active_event_driver",
+      "classes": [
+        "Falken Club TR"
+      ],
+      "series": [
+        "TrackBattle"
+      ],
+      "carNumbers": [
+        "71"
+      ],
+      "vehicles": [
+        "'13 FR-S"
+      ],
+      "verifiedEntryCount": 1,
+      "verifiedProfile": null
+    },
+    {
+      "key": "kevin_wesley",
+      "name": "Kevin Wesley",
+      "status": "active_event_driver",
+      "classes": [
+        "GLGT",
+        "TBA"
+      ],
+      "series": [
+        "GLGT",
+        "TrackBattle"
+      ],
+      "carNumbers": [],
+      "vehicles": [],
+      "verifiedEntryCount": 2,
+      "verifiedProfile": null
+    },
+    {
+      "key": "kevin_zhu",
+      "name": "Kevin Zhu",
+      "status": "active_event_driver",
+      "classes": [
+        "GLTC"
+      ],
+      "series": [
+        "GLTC"
+      ],
+      "carNumbers": [
+        "243"
+      ],
+      "vehicles": [
+        "'09 Civic SI 4DR"
+      ],
+      "verifiedEntryCount": 1,
+      "verifiedProfile": null
+    },
+    {
+      "key": "kunwoo_lee",
+      "name": "Kunwoo Lee",
+      "status": "active_event_driver",
+      "classes": [
+        "GLTC"
+      ],
+      "series": [
+        "GLTC"
+      ],
+      "carNumbers": [
+        "22"
+      ],
+      "vehicles": [
+        "'13 86"
+      ],
+      "verifiedEntryCount": 1,
+      "verifiedProfile": null
+    },
+    {
+      "key": "kyle_melnyk",
+      "name": "Kyle Melnyk",
+      "status": "active_event_driver",
+      "classes": [
+        "Rush SR"
+      ],
+      "series": [
+        "RUSH SR"
+      ],
+      "carNumbers": [
+        "35"
+      ],
+      "vehicles": [
+        "'23 SR"
+      ],
+      "verifiedEntryCount": 1,
+      "verifiedProfile": null
+    },
+    {
+      "key": "larry_brady",
+      "name": "Larry Brady",
+      "status": "active_event_driver",
+      "classes": [
+        "Rush SR"
+      ],
+      "series": [
+        "RUSH SR"
+      ],
+      "carNumbers": [
+        "58"
+      ],
+      "vehicles": [
+        "'24 SR"
+      ],
+      "verifiedEntryCount": 1,
+      "verifiedProfile": null
+    },
+    {
+      "key": "lealand_wamboldt",
+      "name": "Lealand Wamboldt",
+      "status": "active_event_driver",
+      "classes": [
+        "GLTC"
+      ],
+      "series": [
+        "GLTC"
+      ],
+      "carNumbers": [
+        "204"
+      ],
+      "vehicles": [
+        "'98 Integra"
+      ],
+      "verifiedEntryCount": 1,
+      "verifiedProfile": null
+    },
+    {
+      "key": "lee_kellert",
+      "name": "Lee Kellert",
+      "status": "active_event_driver",
+      "classes": [
+        "Rush SR"
+      ],
+      "series": [
+        "RUSH SR"
+      ],
+      "carNumbers": [
+        "13"
+      ],
+      "vehicles": [
+        "'24 SR"
+      ],
+      "verifiedEntryCount": 1,
+      "verifiedProfile": null
+    },
+    {
+      "key": "liam_stanford",
+      "name": "Liam Stanford",
+      "status": "active_event_driver",
+      "classes": [
+        "Drift"
+      ],
+      "series": [
+        "DRIFT"
+      ],
+      "carNumbers": [],
+      "vehicles": [
+        "'02 330ci"
+      ],
+      "verifiedEntryCount": 1,
+      "verifiedProfile": null
+    },
+    {
+      "key": "logan_geyer",
+      "name": "Logan Geyer",
+      "status": "active_event_driver",
+      "classes": [
+        "Falken Club TR"
+      ],
+      "series": [
+        "TrackBattle"
+      ],
+      "carNumbers": [
+        "42"
+      ],
+      "vehicles": [
+        "'13 BRZ"
+      ],
+      "verifiedEntryCount": 1,
+      "verifiedProfile": null
+    },
+    {
+      "key": "luke_paglione",
+      "name": "Luke Paglione",
+      "status": "active_event_driver",
+      "classes": [
+        "Falken Club TR"
+      ],
+      "series": [
+        "TrackBattle"
+      ],
+      "carNumbers": [
+        "973"
+      ],
+      "vehicles": [
+        "'07 Civic SI 2DR"
+      ],
+      "verifiedEntryCount": 1,
+      "verifiedProfile": null
+    },
+    {
+      "key": "mark_johnson",
+      "name": "Mark Johnson",
+      "status": "active_event_driver",
+      "classes": [
+        "Unlimited"
+      ],
+      "series": [
+        "TrackBattle"
+      ],
+      "carNumbers": [
+        "127"
+      ],
+      "vehicles": [
+        "'94 Civic 2DR"
+      ],
+      "verifiedEntryCount": 1,
+      "verifiedProfile": null
+    },
+    {
+      "key": "mason_bursac",
+      "name": "Mason Bursac",
+      "status": "active_event_driver",
+      "classes": [
+        "GLTC"
+      ],
+      "series": [
+        "GLTC"
+      ],
+      "carNumbers": [
+        "424"
+      ],
+      "vehicles": [
+        "'04 M3"
+      ],
+      "verifiedEntryCount": 1,
+      "verifiedProfile": null
+    },
+    {
+      "key": "matan_rosenberg",
+      "name": "Matan Rosenberg",
+      "status": "active_event_driver",
+      "classes": [
+        "GLGT"
+      ],
+      "series": [
+        "GLGT"
+      ],
+      "carNumbers": [
+        "484"
+      ],
+      "vehicles": [
+        "'99 Corvette"
+      ],
+      "verifiedEntryCount": 3,
+      "verifiedProfile": null
+    },
+    {
+      "key": "matt_coffman",
+      "name": "Matt Coffman",
+      "status": "active_event_driver",
+      "classes": [
+        "Drift"
+      ],
+      "series": [
+        "DRIFT"
+      ],
+      "carNumbers": [],
+      "vehicles": [],
+      "verifiedEntryCount": 1,
+      "verifiedProfile": null
+    },
+    {
+      "key": "matt_waldbaum",
+      "name": "Matt Waldbaum",
+      "status": "active_event_driver",
+      "classes": [
+        "GLTC"
+      ],
+      "series": [
+        "GLTC"
+      ],
+      "carNumbers": [
+        "90"
+      ],
+      "vehicles": [
+        "'00 S2000"
+      ],
+      "verifiedEntryCount": 1,
+      "verifiedProfile": null
+    },
+    {
+      "key": "matt_wilson",
+      "name": "Matt Wilson",
+      "status": "active_event_driver",
+      "classes": [
+        "Rush SR"
+      ],
+      "series": [
+        "RUSH SR"
+      ],
+      "carNumbers": [
+        "188"
+      ],
+      "vehicles": [
+        "'25 SR"
+      ],
+      "verifiedEntryCount": 1,
+      "verifiedProfile": null
+    },
+    {
+      "key": "matthew_ibrahim",
+      "name": "Matthew Ibrahim",
+      "status": "active_event_driver",
+      "classes": [
+        "GLTC"
+      ],
+      "series": [
+        "GLTC"
+      ],
+      "carNumbers": [
+        "600"
+      ],
+      "vehicles": [
+        "'92 325i"
+      ],
+      "verifiedEntryCount": 1,
+      "verifiedProfile": null
+    },
+    {
+      "key": "max_gourley",
+      "name": "Max Gourley",
+      "status": "active_event_driver",
+      "classes": [
+        "GLTC"
+      ],
+      "series": [
+        "GLTC"
+      ],
+      "carNumbers": [
+        "134"
+      ],
+      "vehicles": [
+        "'14 BRZ"
+      ],
+      "verifiedEntryCount": 1,
+      "verifiedProfile": null
+    },
+    {
+      "key": "max_krause",
+      "name": "Max Krause",
+      "status": "active_event_driver",
+      "classes": [
+        "Rush SR"
+      ],
+      "series": [
+        "RUSH SR"
+      ],
+      "carNumbers": [
+        "314"
+      ],
+      "vehicles": [
+        "'24 SR"
+      ],
+      "verifiedEntryCount": 1,
+      "verifiedProfile": null
+    },
+    {
+      "key": "michael_bouhabib",
+      "name": "Michael Bouhabib",
+      "status": "active_event_driver",
+      "classes": [
+        "Drift"
+      ],
+      "series": [
+        "DRIFT"
+      ],
+      "carNumbers": [],
+      "vehicles": [
+        "'95 240SX"
+      ],
+      "verifiedEntryCount": 1,
+      "verifiedProfile": null
+    },
+    {
+      "key": "michael_bruning",
+      "name": "Michael Bruning",
+      "status": "active_event_driver",
+      "classes": [
+        "Drift"
+      ],
+      "series": [
+        "DRIFT"
+      ],
+      "carNumbers": [],
+      "vehicles": [
+        "'94 MX-5"
+      ],
+      "verifiedEntryCount": 1,
+      "verifiedProfile": null
+    },
+    {
+      "key": "michael_callaway",
+      "name": "Michael Callaway",
+      "status": "active_event_driver",
+      "classes": [
+        "Street"
+      ],
+      "series": [
+        "TrackBattle"
+      ],
+      "carNumbers": [
+        "194"
+      ],
+      "vehicles": [
+        "'03 WRX STI"
+      ],
+      "verifiedEntryCount": 1,
+      "verifiedProfile": null
+    },
+    {
+      "key": "michael_hillo",
+      "name": "Michael Hillo",
+      "status": "active_event_driver",
+      "classes": [
+        "GLTC"
+      ],
+      "series": [
+        "GLTC"
+      ],
+      "carNumbers": [
+        "224"
+      ],
+      "vehicles": [
+        "'08 350Z"
+      ],
+      "verifiedEntryCount": 1,
+      "verifiedProfile": null
+    },
+    {
+      "key": "michael_homeijer",
+      "name": "Michael Homeijer",
+      "status": "active_event_driver",
+      "classes": [
+        "Falken Club TR"
+      ],
+      "series": [
+        "TrackBattle"
+      ],
+      "carNumbers": [
+        "210"
+      ],
+      "vehicles": [
+        "'13 BRZ"
+      ],
+      "verifiedEntryCount": 1,
+      "verifiedProfile": null
+    },
+    {
+      "key": "michael_janssen",
+      "name": "Michael Janssen",
+      "status": "active_event_driver",
+      "classes": [
+        "Falken Club SC"
+      ],
+      "series": [
+        "TrackBattle"
+      ],
+      "carNumbers": [
+        "156"
+      ],
+      "vehicles": [
+        "'93 Civic"
+      ],
+      "verifiedEntryCount": 1,
+      "verifiedProfile": null
+    },
+    {
+      "key": "michael_pagano",
+      "name": "Michael Pagano",
+      "status": "active_event_driver",
+      "classes": [
+        "GLTC"
+      ],
+      "series": [
+        "GLTC"
+      ],
+      "carNumbers": [
+        "155"
+      ],
+      "vehicles": [
+        "'05 116i"
+      ],
+      "verifiedEntryCount": 1,
+      "verifiedProfile": null
+    },
+    {
+      "key": "michael_woodward",
+      "name": "Michael Woodward",
+      "status": "active_event_driver",
+      "classes": [
+        "Rush SR"
+      ],
+      "series": [
+        "RUSH SR"
+      ],
+      "carNumbers": [],
+      "vehicles": [
+        "'25 SR"
+      ],
+      "verifiedEntryCount": 1,
+      "verifiedProfile": null
+    },
+    {
+      "key": "mike_aumick",
+      "name": "Mike Aumick",
+      "status": "public_source_non_event_driver",
+      "classes": [],
+      "series": [],
+      "carNumbers": [],
+      "vehicles": [],
+      "verifiedEntryCount": 2,
+      "verifiedProfile": null
+    },
+    {
+      "key": "mike_coons",
+      "name": "Mike Coons",
+      "status": "active_event_driver",
+      "classes": [
+        "Street"
+      ],
+      "series": [
+        "TrackBattle"
+      ],
+      "carNumbers": [
+        "310"
+      ],
+      "vehicles": [
+        "'09 WRX STI"
+      ],
+      "verifiedEntryCount": 1,
+      "verifiedProfile": null
+    },
+    {
+      "key": "mike_dusold",
+      "name": "Mike Dusold",
+      "status": "active_event_driver",
+      "classes": [
+        "Unlimited"
+      ],
+      "series": [
+        "TrackBattle"
+      ],
+      "carNumbers": [
+        "57"
+      ],
+      "vehicles": [
+        "'67 Camaro"
+      ],
+      "verifiedEntryCount": 1,
+      "verifiedProfile": null
+    },
+    {
+      "key": "mike_kubiak",
+      "name": "Mike Kubiak",
+      "status": "active_event_driver",
+      "classes": [
+        "Track Mod"
+      ],
+      "series": [
+        "TrackBattle"
+      ],
+      "carNumbers": [
+        "363"
+      ],
+      "vehicles": [
+        "'03 Corvette Z06"
+      ],
+      "verifiedEntryCount": 1,
+      "verifiedProfile": null
+    },
+    {
+      "key": "mike_prez",
+      "name": "Mike Prez",
+      "status": "active_event_driver",
+      "classes": [
+        "Drift"
+      ],
+      "series": [
+        "DRIFT"
+      ],
+      "carNumbers": [],
+      "vehicles": [
+        "'93 Supra"
+      ],
+      "verifiedEntryCount": 1,
+      "verifiedProfile": null
+    },
+    {
+      "key": "mitch_cooper",
+      "name": "Mitch Cooper",
+      "status": "active_event_driver",
+      "classes": [
+        "Rush SR"
+      ],
+      "series": [
+        "RUSH SR"
+      ],
+      "carNumbers": [
+        "39"
+      ],
+      "vehicles": [
+        "'22 SR"
+      ],
+      "verifiedEntryCount": 1,
+      "verifiedProfile": null
+    },
+    {
+      "key": "mitchell_hickling",
+      "name": "Mitchell Hickling",
+      "status": "active_event_driver",
+      "classes": [
+        "Drift"
+      ],
+      "series": [
+        "DRIFT"
+      ],
+      "carNumbers": [],
+      "vehicles": [
+        "'18 M4 Coupe"
+      ],
+      "verifiedEntryCount": 1,
+      "verifiedProfile": null
+    },
+    {
+      "key": "nathan_manning",
+      "name": "Nathan Manning",
+      "status": "active_event_driver",
+      "classes": [
+        "GLTC"
+      ],
+      "series": [
+        "GLTC"
+      ],
+      "carNumbers": [
+        "860"
+      ],
+      "vehicles": [
+        "'86 Corolla"
+      ],
+      "verifiedEntryCount": 1,
+      "verifiedProfile": null
+    },
+    {
+      "key": "nathan_traxler",
+      "name": "Nathan Traxler",
+      "status": "active_event_driver",
+      "classes": [
+        "Falken Club TR"
+      ],
+      "series": [
+        "TrackBattle"
+      ],
+      "carNumbers": [
+        "728"
+      ],
+      "vehicles": [
+        "'24 GR 86"
+      ],
+      "verifiedEntryCount": 1,
+      "verifiedProfile": null
+    },
+    {
+      "key": "nicholas_barbato",
+      "name": "Nicholas Barbato",
+      "status": "active_event_driver",
+      "classes": [
+        "GLTC"
+      ],
+      "series": [
+        "GLTC"
+      ],
+      "carNumbers": [
+        "49"
+      ],
+      "vehicles": [
+        "'97 M3"
+      ],
+      "verifiedEntryCount": 1,
+      "verifiedProfile": null
+    },
+    {
+      "key": "nicholas_nazzaro",
+      "name": "Nicholas Nazzaro",
+      "status": "active_event_driver",
+      "classes": [
+        "Drift"
+      ],
+      "series": [
+        "DRIFT"
+      ],
+      "carNumbers": [],
+      "vehicles": [
+        "'13 BRZ"
+      ],
+      "verifiedEntryCount": 1,
+      "verifiedProfile": null
+    },
+    {
+      "key": "nick_hendrix",
+      "name": "Nick Hendrix",
+      "status": "active_event_driver",
+      "classes": [
+        "Street GT"
+      ],
+      "series": [
+        "TrackBattle"
+      ],
+      "carNumbers": [
+        "364"
+      ],
+      "vehicles": [
+        "'09 Corvette Z06"
+      ],
+      "verifiedEntryCount": 1,
+      "verifiedProfile": null
+    },
+    {
+      "key": "noah_janke",
+      "name": "Noah Janke",
+      "status": "active_event_driver",
+      "classes": [
+        "Falken Club TR"
+      ],
+      "series": [
+        "TrackBattle"
+      ],
+      "carNumbers": [
+        "262"
+      ],
+      "vehicles": [
+        "'00 MR2"
+      ],
+      "verifiedEntryCount": 1,
+      "verifiedProfile": null
+    },
+    {
+      "key": "orion_callahan",
+      "name": "Orion Callahan",
+      "status": "active_event_driver",
+      "classes": [
+        "Drift"
+      ],
+      "series": [
+        "DRIFT"
+      ],
+      "carNumbers": [],
+      "vehicles": [],
+      "verifiedEntryCount": 1,
+      "verifiedProfile": null
+    },
+    {
+      "key": "p_j_prendergast",
+      "name": "P.J. Prendergast",
+      "status": "active_event_driver",
+      "classes": [
+        "Drift"
+      ],
+      "series": [
+        "DRIFT"
+      ],
+      "carNumbers": [],
+      "vehicles": [],
+      "verifiedEntryCount": 1,
+      "verifiedProfile": null
+    },
+    {
+      "key": "patrick_harvey",
+      "name": "Patrick Harvey",
+      "status": "active_event_driver",
+      "classes": [
+        "Falken Club TR"
+      ],
+      "series": [
+        "TrackBattle"
+      ],
+      "carNumbers": [
+        "482"
+      ],
+      "vehicles": [
+        "'06 MX-5 Miata"
+      ],
+      "verifiedEntryCount": 1,
+      "verifiedProfile": null
+    },
+    {
+      "key": "paul_makarucha",
+      "name": "Paul Makarucha",
+      "status": "active_event_driver",
+      "classes": [
+        "Rush SR"
+      ],
+      "series": [
+        "RUSH SR"
+      ],
+      "carNumbers": [
+        "126"
+      ],
+      "vehicles": [
+        "'22 SR"
+      ],
+      "verifiedEntryCount": 1,
+      "verifiedProfile": null
+    },
+    {
+      "key": "peter_agapoglou",
+      "name": "Peter Agapoglou",
+      "status": "active_event_driver",
+      "classes": [
+        "GLGT"
+      ],
+      "series": [
+        "GLGT"
+      ],
+      "carNumbers": [
+        "288"
+      ],
+      "vehicles": [
+        "'97 M3 Coupe"
+      ],
+      "verifiedEntryCount": 1,
+      "verifiedProfile": null
+    },
+    {
+      "key": "peter_collins",
+      "name": "Peter Collins",
+      "status": "active_event_driver",
+      "classes": [
+        "Drift"
+      ],
+      "series": [
+        "DRIFT"
+      ],
+      "carNumbers": [],
+      "vehicles": [
+        "'04 M3"
+      ],
+      "verifiedEntryCount": 1,
+      "verifiedProfile": null
+    },
+    {
+      "key": "peter_granberg",
+      "name": "Peter Granberg",
+      "status": "active_event_driver",
+      "classes": [
+        "Falken Club TR"
+      ],
+      "series": [
+        "TrackBattle"
+      ],
+      "carNumbers": [
+        "511"
+      ],
+      "vehicles": [
+        "'14 BRZ"
+      ],
+      "verifiedEntryCount": 1,
+      "verifiedProfile": null
+    },
+    {
+      "key": "peter_liu",
+      "name": "Peter Liu",
+      "status": "active_event_driver",
+      "classes": [
+        "Track Mod"
+      ],
+      "series": [
+        "TrackBattle"
+      ],
+      "carNumbers": [
+        "545"
+      ],
+      "vehicles": [
+        "'24 M2"
+      ],
+      "verifiedEntryCount": 1,
+      "verifiedProfile": null
+    },
+    {
+      "key": "peter_zhang",
+      "name": "Peter Zhang",
+      "status": "active_event_driver",
+      "classes": [
+        "GLTC"
+      ],
+      "series": [
+        "GLTC"
+      ],
+      "carNumbers": [
+        "28"
+      ],
+      "vehicles": [
+        "'13 86"
+      ],
+      "verifiedEntryCount": 1,
+      "verifiedProfile": null
+    },
+    {
+      "key": "riley_sexsmith",
+      "name": "Riley Sexsmith",
+      "status": "active_event_driver",
+      "classes": [
+        "Drift"
+      ],
+      "series": [
+        "DRIFT"
+      ],
+      "carNumbers": [],
+      "vehicles": [
+        "'19 86"
+      ],
+      "verifiedEntryCount": 1,
+      "verifiedProfile": null
+    },
+    {
+      "key": "rj_till",
+      "name": "RJ Till",
+      "status": "active_event_driver",
+      "classes": [
+        "GLTC"
+      ],
+      "series": [
+        "GLTC"
+      ],
+      "carNumbers": [
+        "200"
+      ],
+      "vehicles": [
+        "'87 325i"
+      ],
+      "verifiedEntryCount": 1,
+      "verifiedProfile": null
+    },
+    {
+      "key": "ronnie_vajdak",
+      "name": "Ronnie Vajdak",
+      "status": "active_event_driver",
+      "classes": [
+        "GLTC"
+      ],
+      "series": [
+        "GLTC"
+      ],
+      "carNumbers": [
+        "99"
+      ],
+      "vehicles": [
+        "'99 Integra"
+      ],
+      "verifiedEntryCount": 1,
+      "verifiedProfile": null
+    },
+    {
+      "key": "ryan_kristoff",
+      "name": "Ryan Kristoff",
+      "status": "active_event_driver",
+      "classes": [
+        "GLTC"
+      ],
+      "series": [
+        "GLTC"
+      ],
+      "carNumbers": [
+        "46"
+      ],
+      "vehicles": [
+        "'86 Civic CRX"
+      ],
+      "verifiedEntryCount": 1,
+      "verifiedProfile": null
+    },
+    {
+      "key": "ryan_mott",
+      "name": "Ryan Mott",
+      "status": "active_event_driver",
+      "classes": [
+        "Drift"
+      ],
+      "series": [
+        "DRIFT"
+      ],
+      "carNumbers": [],
+      "vehicles": [
+        "'99 GS 300/GS 400"
+      ],
+      "verifiedEntryCount": 1,
+      "verifiedProfile": null
+    },
+    {
+      "key": "ryerson_whissell",
+      "name": "Ryerson Whissell",
+      "status": "active_event_driver",
+      "classes": [
+        "Rush SR"
+      ],
+      "series": [
+        "RUSH SR"
+      ],
+      "carNumbers": [
+        "45"
+      ],
+      "vehicles": [
+        "'25 SR"
+      ],
+      "verifiedEntryCount": 1,
+      "verifiedProfile": null
+    },
+    {
+      "key": "salil_shukla",
+      "name": "Salil Shukla",
+      "status": "active_event_driver",
+      "classes": [
+        "GLTC"
+      ],
+      "series": [
+        "GLTC"
+      ],
+      "carNumbers": [
+        "715"
+      ],
+      "vehicles": [
+        "'02 M3 Coupe"
+      ],
+      "verifiedEntryCount": 1,
+      "verifiedProfile": null
+    },
+    {
+      "key": "sam_bosnian",
+      "name": "Sam Bosnian",
+      "status": "active_event_driver",
+      "classes": [
+        "Street"
+      ],
+      "series": [
+        "TrackBattle"
+      ],
+      "carNumbers": [
+        "625"
+      ],
+      "vehicles": [
+        "'14 Lancer Evolution"
+      ],
+      "verifiedEntryCount": 1,
+      "verifiedProfile": null
+    },
+    {
+      "key": "sam_deuling",
+      "name": "Sam Deuling",
+      "status": "active_event_driver",
+      "classes": [
+        "Rush SR"
+      ],
+      "series": [
+        "RUSH SR"
+      ],
+      "carNumbers": [],
+      "vehicles": [],
+      "verifiedEntryCount": 1,
+      "verifiedProfile": null
+    },
+    {
+      "key": "sam_kennedy",
+      "name": "Sam Kennedy",
+      "status": "active_event_driver",
+      "classes": [
+        "Drift"
+      ],
+      "series": [
+        "DRIFT"
+      ],
+      "carNumbers": [],
+      "vehicles": [
+        "'91 240SX"
+      ],
+      "verifiedEntryCount": 1,
+      "verifiedProfile": null
+    },
+    {
+      "key": "sam_scott",
+      "name": "Sam Scott",
+      "status": "active_event_driver",
+      "classes": [
+        "GLTC"
+      ],
+      "series": [
+        "GLTC"
+      ],
+      "carNumbers": [
+        "85"
+      ],
+      "vehicles": [
+        "'06 MX-5 Miata"
+      ],
+      "verifiedEntryCount": 1,
+      "verifiedProfile": null
+    },
+    {
+      "key": "samuel_reed",
+      "name": "Samuel Reed",
+      "status": "active_event_driver",
+      "classes": [
+        "Rush SR"
+      ],
+      "series": [
+        "RUSH SR"
+      ],
+      "carNumbers": [
+        "256"
+      ],
+      "vehicles": [
+        "'23 SR"
+      ],
+      "verifiedEntryCount": 1,
+      "verifiedProfile": null
+    },
+    {
+      "key": "sasha_anis",
+      "name": "Sasha Anis",
+      "status": "active_event_driver",
+      "classes": [
+        "Unlimited"
+      ],
+      "series": [
+        "TrackBattle"
+      ],
+      "carNumbers": [
+        "714"
+      ],
+      "vehicles": [
+        "'03 350Z"
+      ],
+      "verifiedEntryCount": 4,
+      "verifiedProfile": null
+    },
+    {
+      "key": "sean_sullivan",
+      "name": "Sean Sullivan",
+      "status": "active_event_driver",
+      "classes": [
+        "Street"
+      ],
+      "series": [
+        "TrackBattle"
+      ],
+      "carNumbers": [
+        "111"
+      ],
+      "vehicles": [
+        "'17 Golf"
+      ],
+      "verifiedEntryCount": 1,
+      "verifiedProfile": null
+    },
+    {
+      "key": "shane_o_rourke",
+      "name": "Shane O'Rourke",
+      "status": "active_event_driver",
+      "classes": [
+        "Drift"
+      ],
+      "series": [
+        "DRIFT"
+      ],
+      "carNumbers": [],
+      "vehicles": [
+        "'98 Corvette"
+      ],
+      "verifiedEntryCount": 1,
+      "verifiedProfile": null
+    },
+    {
+      "key": "shawn_bassett",
+      "name": "Shawn Bassett",
+      "status": "active_event_driver",
+      "classes": [
+        "GLGT"
+      ],
+      "series": [
+        "GLGT"
+      ],
+      "carNumbers": [
+        "269"
+      ],
+      "vehicles": [
+        "'06 350Z"
+      ],
+      "verifiedEntryCount": 1,
+      "verifiedProfile": null
+    },
+    {
+      "key": "spencer_pigot",
+      "name": "Spencer Pigot",
+      "status": "public_source_non_event_driver",
+      "classes": [],
+      "series": [
+        "RUSH SR"
+      ],
+      "carNumbers": [],
+      "vehicles": [],
+      "verifiedEntryCount": 2,
+      "verifiedProfile": null
+    },
+    {
+      "key": "steve_cairo",
+      "name": "Steve Cairo",
+      "status": "active_event_driver",
+      "classes": [
+        "GLGT"
+      ],
+      "series": [
+        "GLGT"
+      ],
+      "carNumbers": [
+        "727"
+      ],
+      "vehicles": [
+        "'06 350Z"
+      ],
+      "verifiedEntryCount": 1,
+      "verifiedProfile": null
+    },
+    {
+      "key": "t_pain_t_pain",
+      "name": "T-Pain T-Pain",
+      "status": "active_event_driver",
+      "classes": [
+        "Drift"
+      ],
+      "series": [
+        "DRIFT"
+      ],
+      "carNumbers": [],
+      "vehicles": [],
+      "verifiedEntryCount": 1,
+      "verifiedProfile": null
+    },
+    {
+      "key": "tim_pforzheimer",
+      "name": "Tim Pforzheimer",
+      "status": "active_event_driver",
+      "classes": [
+        "Falken Club SC"
+      ],
+      "series": [
+        "TrackBattle"
+      ],
+      "carNumbers": [
+        "1"
+      ],
+      "vehicles": [
+        "'07 Fit"
+      ],
+      "verifiedEntryCount": 1,
+      "verifiedProfile": null
+    },
+    {
+      "key": "tom_peplinski",
+      "name": "Tom Peplinski",
+      "status": "active_event_driver",
+      "classes": [
+        "Drift"
+      ],
+      "series": [
+        "DRIFT"
+      ],
+      "carNumbers": [],
+      "vehicles": [
+        "'87 325is"
+      ],
+      "verifiedEntryCount": 1,
+      "verifiedProfile": null
+    },
+    {
+      "key": "tony_barber",
+      "name": "Tony Barber",
+      "status": "active_event_driver",
+      "classes": [
+        "Rush SR"
+      ],
+      "series": [
+        "RUSH SR"
+      ],
+      "carNumbers": [
+        "150"
+      ],
+      "vehicles": [
+        "'25 SR"
+      ],
+      "verifiedEntryCount": 1,
+      "verifiedProfile": null
+    },
+    {
+      "key": "travis_pendleton",
+      "name": "Travis Pendleton",
+      "status": "active_event_driver",
+      "classes": [
+        "Drift"
+      ],
+      "series": [
+        "DRIFT"
+      ],
+      "carNumbers": [],
+      "vehicles": [
+        "'00 3 Series"
+      ],
+      "verifiedEntryCount": 1,
+      "verifiedProfile": null
+    },
+    {
+      "key": "travis_uhl",
+      "name": "Travis Uhl",
+      "status": "active_event_driver",
+      "classes": [
+        "Drift"
+      ],
+      "series": [
+        "DRIFT"
+      ],
+      "carNumbers": [],
+      "vehicles": [
+        "'03 Mustang"
+      ],
+      "verifiedEntryCount": 1,
+      "verifiedProfile": null
+    },
+    {
+      "key": "tripp_staudt",
+      "name": "Tripp Staudt",
+      "status": "active_event_driver",
+      "classes": [
+        "Rush SR"
+      ],
+      "series": [
+        "RUSH SR"
+      ],
+      "carNumbers": [
+        "3"
+      ],
+      "vehicles": [
+        "'26 SR"
+      ],
+      "verifiedEntryCount": 1,
+      "verifiedProfile": null
+    },
+    {
+      "key": "troy_bauma",
+      "name": "Troy Bauma",
+      "status": "active_event_driver",
+      "classes": [
+        "Falken Club SC"
+      ],
+      "series": [
+        "TrackBattle"
+      ],
+      "carNumbers": [
+        "318"
+      ],
+      "vehicles": [
+        "'94 318is"
+      ],
+      "verifiedEntryCount": 1,
+      "verifiedProfile": null
+    },
+    {
+      "key": "xander_nappi",
+      "name": "Xander Nappi",
+      "status": "active_event_driver",
+      "classes": [
+        "Drift"
+      ],
+      "series": [
+        "DRIFT"
+      ],
+      "carNumbers": [],
+      "vehicles": [
+        "'97 M3"
+      ],
+      "verifiedEntryCount": 1,
+      "verifiedProfile": null
+    },
+    {
+      "key": "zach_veach",
+      "name": "Zach Veach",
+      "status": "active_event_driver",
+      "classes": [
+        "Rush SR"
+      ],
+      "series": [
+        "RUSH SR"
+      ],
+      "carNumbers": [],
+      "vehicles": [],
+      "verifiedEntryCount": 1,
+      "verifiedProfile": null
+    },
+    {
+      "key": "zachary_mortimer",
+      "name": "Zachary Mortimer",
+      "status": "active_event_driver",
+      "classes": [
+        "GLTC"
+      ],
+      "series": [
+        "GLTC"
+      ],
+      "carNumbers": [
+        "369"
+      ],
+      "vehicles": [
+        "'94 325is"
+      ],
+      "verifiedEntryCount": 1,
+      "verifiedProfile": null
+    },
+    {
+      "key": "zoran_lazic",
+      "name": "Zoran Lazic",
+      "status": "active_event_driver",
+      "classes": [
+        "Falken Club TR"
+      ],
+      "series": [
+        "TrackBattle"
+      ],
+      "carNumbers": [
+        "917"
+      ],
+      "vehicles": [
+        "'06 3"
+      ],
+      "verifiedEntryCount": 1,
+      "verifiedProfile": null
+    }
+  ]
+}

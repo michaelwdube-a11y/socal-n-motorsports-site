@@ -1760,3 +1760,36 @@ footer p:last-child {
     transition-duration: 0.01ms !important;
   }
 }
+
+.driver-kits-home {
+  padding: 105px 0;
+  background: #101510;
+  color: var(--white);
+  border-top: 1px solid rgba(255,255,255,.14);
+  border-bottom: 1px solid rgba(255,255,255,.14);
+}
+
+.driver-kits-home-inner {
+  display: grid;
+  grid-template-columns: 1.35fr .85fr;
+  align-items: end;
+  gap: 90px;
+}
+
+.driver-kits-home h2 {
+  margin: 0;
+  font-family: Impact, "Arial Narrow", Arial, sans-serif;
+  font-size: clamp(54px, 6.5vw, 96px);
+  line-height: .94;
+  letter-spacing: -.03em;
+  text-transform: uppercase;
+}
+
+.driver-kits-home h2 em { color: var(--acid); font-style: normal; }
+.driver-kits-home-copy > p { margin: 0; color: rgba(255,255,255,.68); font-size: 17px; line-height: 1.7; }
+.driver-kits-actions { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 30px; }
+
+@media (max-width: 800px) {
+  .driver-kits-home { padding: 75px 0; }
+  .driver-kits-home-inner { grid-template-columns: 1fr; gap: 35px; }
+}
