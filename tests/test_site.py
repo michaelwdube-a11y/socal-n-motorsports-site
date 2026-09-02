@@ -87,6 +87,8 @@ def main():
     assert "KDM MOTORSPORTS CO-TEAM PRINCIPAL" in html
     assert "2024 FCP Euro Pacific (West Coast) Street Champion" in html
     assert "77 points" in html
+    assert "8+ FWD Street records" in html
+    assert "michael-dube.webp" in html
     assert "average sponsorship" not in html.lower()
     assert "follower" not in html.lower()
     assert html.count(store_url) >= 9, "homepage store links and calls to action are incomplete"

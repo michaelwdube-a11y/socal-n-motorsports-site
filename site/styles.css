@@ -1251,7 +1251,7 @@ footer p:last-child {
   filter: saturate(.72) contrast(1.06);
 }
 
-.leader-card--michael .leader-image img { object-position: 42% center; }
+.leader-card--michael .leader-image img { object-position: center 20%; }
 .leader-card--jordan .leader-image img { object-position: center 20%; }
 
 .leader-copy {
@@ -1354,7 +1354,7 @@ footer p:last-child {
 
 .crew-image--josh img { object-position: center 24%; }
 .crew-image--will img { object-position: center 24%; }
-.crew-image--corey img { object-position: center 24%; }
+.crew-image--corey img { object-position: center; }
 .crew-image--chris img { object-position: center 20%; }
 .crew-image--anthony img { object-position: center 35%; }
 
@@ -1648,7 +1648,7 @@ footer p:last-child {
   .about-section { padding: 80px 0; }
   .leader-card { grid-template-columns: 1fr; }
   .leader-image { min-height: 430px; }
-  .leader-card--michael .leader-image img { object-position: 43% center; }
+  .leader-card--michael .leader-image img { object-position: center 18%; }
   .crew-section { margin-top: 76px; }
   .crew-grid { grid-template-columns: 1fr; }
   .crew-card--results { grid-column: auto; }
