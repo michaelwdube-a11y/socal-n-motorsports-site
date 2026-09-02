@@ -1152,7 +1152,7 @@ footer p:last-child {
 
 .coach-proof {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   gap: 1px;
   margin-top: 38px;
   background: #cfd0ca;
@@ -1314,9 +1314,17 @@ footer p:last-child {
 
 .crew-heading h2 { max-width: 900px; }
 
+.crew-intro {
+  max-width: 820px;
+  margin: 22px 0 0;
+  color: rgba(255,255,255,.64);
+  font-size: 15px;
+  line-height: 1.72;
+}
+
 .crew-grid {
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(6, 1fr);
   margin-top: 55px;
   border-top: 1px solid rgba(255,255,255,.16);
   border-left: 1px solid rgba(255,255,255,.16);
@@ -1328,6 +1336,8 @@ footer p:last-child {
   border-bottom: 1px solid rgba(255,255,255,.16);
   background: #181b18;
 }
+
+.crew-card--results { grid-column: span 2; }
 
 .crew-image {
   aspect-ratio: 1 / .78;
@@ -1342,12 +1352,37 @@ footer p:last-child {
   filter: saturate(.72) contrast(1.08);
 }
 
-.crew-image--josh img { object-position: 72% center; }
-.crew-image--anthony img { object-position: 75% center; }
+.crew-image--josh img { object-position: center 24%; }
+.crew-image--will img { object-position: center 24%; }
+.crew-image--corey img { object-position: center 24%; }
+.crew-image--chris img { object-position: center 20%; }
+.crew-image--anthony img { object-position: center 35%; }
 
 .crew-card > div:last-child { padding: 25px 22px 30px; }
 .crew-card h3 { font-size: clamp(25px, 2.3vw, 34px); margin-bottom: 15px; }
 .crew-card span { color: rgba(255,255,255,.57); font-size: 12px; line-height: 1.62; }
+
+.crew-accolades {
+  margin: 20px 0 0;
+  padding: 0;
+  border-top: 1px solid rgba(255,255,255,.13);
+  list-style: none;
+}
+
+.crew-accolades li {
+  padding: 9px 0;
+  border-bottom: 1px solid rgba(255,255,255,.13);
+  color: rgba(255,255,255,.68);
+  font-size: 11px;
+  line-height: 1.48;
+}
+
+.crew-accolades b {
+  color: var(--acid);
+  font-size: 9px;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+}
 
 @media (max-width: 1020px) {
   .site-header {
@@ -1399,6 +1434,7 @@ footer p:last-child {
   .leadership-grid { grid-template-columns: 1fr; }
 
   .crew-grid { grid-template-columns: repeat(2, 1fr); }
+  .crew-card--results { grid-column: span 2; }
 
   .coach-image-wrap {
     min-height: 660px;
@@ -1615,6 +1651,7 @@ footer p:last-child {
   .leader-card--michael .leader-image img { object-position: 43% center; }
   .crew-section { margin-top: 76px; }
   .crew-grid { grid-template-columns: 1fr; }
+  .crew-card--results { grid-column: auto; }
 
   .split-content {
     padding: 68px 20px;
